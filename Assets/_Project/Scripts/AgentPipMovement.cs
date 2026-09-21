@@ -22,37 +22,54 @@ public class AgentPipMovement : MonoBehaviour
 
     void Update()
     {
-        bool isRunning = Keyboard.current != null && Keyboard.current.leftShiftKey.isPressed;
-        float targetSpeed = isRunning ? runSpeed : walkSpeed;
-        
-        rb.velocity = moveInput * targetSpeed;
+        float moveX = 0f;
+        float moveY = 0f;
+        bool isRunning = false;
 
-        animator.SetBool("isRunning", isRunning);
-
-        if (moveInput.x < 0)
+        // Cek sistem Input mana yang aktif di Unity kamu secara otomatis
+        if (Keyboard.current != null)
         {
-            spriteRenderer.flipX = true;
-        }
-        else if (moveInput.x > 0)
-        {
-            spriteRenderer.flipX = false;
-        }
-    }
+            // --- JIKA NEW INPUT SYSTEM AKTIF ---
+            if (Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed) moveY += 1f;
+            if (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed) moveY -= 1f;
+            if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed) moveX -= 1f;
+            if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed) moveX += 1f;
 
-    public void Move(InputAction.CallbackContext context)
-    {
-        moveInput = context.ReadValue<Vector2>();
-
-        if (context.canceled)
-        {
-            animator.SetBool("isWalking", false);
+            isRunning = Keyboard.current.leftShiftKey.isPressed;
         }
         else
         {
-            animator.SetBool("isWalking", true);
+            // --- JIKA OLD INPUT MANAGER AKTIF (FALLBACK AUTOMATIC) ---
+            moveX = Input.GetAxisRaw("Horizontal");
+            moveY = Input.GetAxisRaw("Vertical");
+
+            isRunning = Input.GetKey(KeyCode.LeftShift);
         }
 
-        animator.SetFloat("InputX", moveInput.x);
-        animator.SetFloat("InputY", moveInput.y);
+        moveInput = new Vector2(moveX, moveY).normalized;
+
+        // Gerakkan Rigidbody2D
+        float targetSpeed = isRunning ? runSpeed : walkSpeed;
+        rb.velocity = moveInput * targetSpeed;
+
+        // Atur Animasi & Flip Sprite
+        bool isWalking = moveInput != Vector2.zero;
+        animator.SetBool("isWalking", isWalking);
+        animator.SetBool("isRunning", isRunning && isWalking);
+
+        if (moveX < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (moveX > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+
+        if (isWalking)
+        {
+            animator.SetFloat("InputX", moveX);
+            animator.SetFloat("InputY", moveY);
+        }
     }
 }
