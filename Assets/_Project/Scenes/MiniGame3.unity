@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23926105
@@ -228,14 +228,14 @@ RectTransform:
   m_GameObject: {fileID: 44391459}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 19.2, y: 10, z: 0}
+  m_LocalScale: {x: 19.200003, y: 10, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 23926104}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 8}
+  m_AnchoredPosition: {x: -3.000061, y: 8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44391461
@@ -567,7 +567,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 71899352}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: OpenMessage3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &71899352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,11 +627,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 71899349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183fb330520173c4b96b8488c6229bc9, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d549f12902f3db47838aaf9ca35a135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrow: {fileID: 0}
+  minScale: 0.85
   maxScale: 1.15
-  pulseSpeed: 4
+  animationSpeed: 2
+  clickScale: 1.25
+  clickDuration: 0.1
 --- !u!1 &75042689
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,7 +717,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 75042692}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: TryAgain
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &75042692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -908,7 +936,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.017500002, y: 0.028, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 744346709}
   m_Father: {fileID: 216737256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1169,7 +1198,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 212393069}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: Message3Safe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &212393069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1220,7 +1261,7 @@ GameObject:
   - component: {fileID: 216737258}
   - component: {fileID: 216737257}
   m_Layer: 5
-  m_Name: BackgroundImage
+  m_Name: ProfileNPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1241,9 +1282,7 @@ RectTransform:
   - {fileID: 2127964134}
   - {fileID: 1673691390}
   - {fileID: 160513061}
-  - {fileID: 744346709}
   - {fileID: 780022045}
-  - {fileID: 962227328}
   - {fileID: 1013693257}
   m_Father: {fileID: 1271458112}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1587,7 +1626,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 455810050}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: Message1Scam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &455810050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1707,7 +1758,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 566824160}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770639}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &566824160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1758,7 +1821,7 @@ GameObject:
   - component: {fileID: 582642587}
   - component: {fileID: 582642586}
   - component: {fileID: 582642585}
-  - component: {fileID: 582642584}
+  - component: {fileID: 582642588}
   m_Layer: 5
   m_Name: More1
   m_TagString: Untagged
@@ -1785,20 +1848,6 @@ RectTransform:
   m_AnchoredPosition: {x: 64.14288, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &582642584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 582642582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183fb330520173c4b96b8488c6229bc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxScale: 1.15
-  pulseSpeed: 4
 --- !u!114 &582642585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1842,7 +1891,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 582642586}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: OpenMessage1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &582642586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1881,6 +1942,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 582642582}
   m_CullTransparentMesh: 1
+--- !u!114 &582642588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582642582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d549f12902f3db47838aaf9ca35a135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrow: {fileID: 0}
+  minScale: 0.85
+  maxScale: 1.15
+  animationSpeed: 2
+  clickScale: 1.25
+  clickDuration: 0.1
 --- !u!1 &586498094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,7 +2042,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 586498097}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: OpenMessage2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &586498097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,11 +2102,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 586498094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183fb330520173c4b96b8488c6229bc9, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d549f12902f3db47838aaf9ca35a135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrow: {fileID: 0}
+  minScale: 0.85
   maxScale: 1.15
-  pulseSpeed: 4
+  animationSpeed: 2
+  clickScale: 1.25
+  clickDuration: 0.1
 --- !u!1 &653886762
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,6 +2192,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653886762}
   m_CullTransparentMesh: 1
+--- !u!1 &704770639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 704770641}
+  - component: {fileID: 704770642}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &704770641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704770639}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1092.4008, y: 830.7954, z: 2.887571}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &704770642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704770639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d9922767548084397f3ef06de98119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pageBackground: {fileID: 216737255}
+  pageSMS: {fileID: 23926103}
+  pageMessage1: {fileID: 653886762}
+  pageMessage2: {fileID: 1495130806}
+  pageMessage3: {fileID: 1650861172}
+  pageCorrect: {fileID: 1067810991}
+  pageWrong: {fileID: 1547620064}
+  pageSuccess: {fileID: 1343289416}
 --- !u!1 &709278400
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,6 +2255,7 @@ GameObject:
   - component: {fileID: 709278401}
   - component: {fileID: 709278403}
   - component: {fileID: 709278402}
+  - component: {fileID: 709278404}
   m_Layer: 5
   m_Name: M_Box2
   m_TagString: Untagged
@@ -2175,6 +2323,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709278400}
   m_CullTransparentMesh: 1
+--- !u!114 &709278404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709278400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 709278402}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: OpenMessage2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &709993174
 GameObject:
   m_ObjectHideFlags: 0
@@ -2411,14 +2615,14 @@ RectTransform:
   m_GameObject: {fileID: 744346708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05555556, y: 0.083333336, z: 0}
+  m_LocalScale: {x: 3.1746035, y: 2.9761903, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 216737256}
+  m_Father: {fileID: 160513061}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.5, y: 25.6}
+  m_AnchoredPosition: {x: -463.57404, y: 747.51764}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &744346710
@@ -2444,20 +2648,17 @@ MonoBehaviour:
   m_text: 'Eh, bisa bantu aku sebentar? Tadi aku dapat beberapa pesan yang mengaku
     dari bank.
 
-    
 
-    Katanya ada aktivitas mencurigakan di rekeningku dan aku
-    harus segera melakukan sesuatu.
+    Katanya ada aktivitas mencurigakan di rekeningku dan aku harus
+    segera melakukan sesuatu.
 
-    
 
-    Aku jadi takut salah klik atau malah
-    memblokir pesan yang sebenarnya penting.
+    Aku jadi takut salah klik atau malah memblokir
+    pesan yang sebenarnya penting.
 
-    
 
-    Bisa bantu aku cek mana
-    yang mencurigakan dan mana yang aman?
+    Bisa bantu aku cek mana yang mencurigakan
+    dan mana yang aman?
 
 '
   m_isRightToLeft: 0
@@ -2681,6 +2882,7 @@ GameObject:
   - component: {fileID: 780022045}
   - component: {fileID: 780022047}
   - component: {fileID: 780022046}
+  - component: {fileID: 780022048}
   m_Layer: 5
   m_Name: ButtonBox
   m_TagString: Untagged
@@ -2699,7 +2901,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.25000003, y: 0.105000004, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 962227328}
   m_Father: {fileID: 216737256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2745,6 +2948,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780022044}
   m_CullTransparentMesh: 1
+--- !u!114 &780022048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780022044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 780022046}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: OpenSMS
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &791578456
 GameObject:
   m_ObjectHideFlags: 0
@@ -3250,14 +3509,14 @@ RectTransform:
   m_GameObject: {fileID: 962227327}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05555556, y: 0.083333336, z: 0}
+  m_LocalScale: {x: 0.22222224, y: 0.7936508, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 216737256}
+  m_Father: {fileID: 780022045}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.899994, y: -24.399998}
+  m_AnchoredPosition: {x: -9.399944, y: -13.333306}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962227329
@@ -3531,7 +3790,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1067810993
@@ -3728,7 +3987,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1227653972}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: Message1Safe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1227653972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3778,7 +4049,6 @@ GameObject:
   - component: {fileID: 1271458112}
   - component: {fileID: 1271458114}
   - component: {fileID: 1271458113}
-  - component: {fileID: 1271458115}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -3798,14 +4068,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1067810992}
+  - {fileID: 1343289417}
+  - {fileID: 1547620065}
   - {fileID: 216737256}
   - {fileID: 23926104}
   - {fileID: 653886763}
   - {fileID: 1495130807}
   - {fileID: 1650861173}
-  - {fileID: 1067810992}
-  - {fileID: 1343289417}
-  - {fileID: 1547620065}
   m_Father: {fileID: 1526393376}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3851,26 +4121,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271458111}
   m_CullTransparentMesh: 1
---- !u!114 &1271458115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271458111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3ed29a21760fa4f8ccebd16cad634f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 0}
-  smsPanel: {fileID: 0}
-  smsDetails1: {fileID: 0}
-  smsDetails2: {fileID: 0}
-  smsDetails3: {fileID: 0}
-  correctPanel: {fileID: 0}
-  wrongPanel: {fileID: 0}
-  successPanel: {fileID: 0}
 --- !u!1 &1331160634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4027,7 +4277,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1332289229}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: Message2Scam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1332289229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4106,7 +4368,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1343289418
@@ -4228,7 +4490,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1348275013}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: ContinueAfterCorrect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1348275013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5042,7 +5316,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1547620066
@@ -6265,6 +6539,7 @@ GameObject:
   - component: {fileID: 1849057934}
   - component: {fileID: 1849057936}
   - component: {fileID: 1849057935}
+  - component: {fileID: 1849057937}
   m_Layer: 5
   m_Name: M_Box3
   m_TagString: Untagged
@@ -6332,6 +6607,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849057933}
   m_CullTransparentMesh: 1
+--- !u!114 &1849057937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849057933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1849057935}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: OpenMessage3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1858981356
 GameObject:
   m_ObjectHideFlags: 0
@@ -6413,7 +6744,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1858981359}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: Message2Scam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1858981359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6463,6 +6806,7 @@ GameObject:
   - component: {fileID: 1932689161}
   - component: {fileID: 1932689163}
   - component: {fileID: 1932689162}
+  - component: {fileID: 1932689164}
   m_Layer: 5
   m_Name: M_Box1
   m_TagString: Untagged
@@ -6530,6 +6874,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932689160}
   m_CullTransparentMesh: 1
+--- !u!114 &1932689164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932689160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1932689162}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: OpenMessage1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1942862245
 GameObject:
   m_ObjectHideFlags: 0
@@ -6748,7 +7148,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1951443272}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704770642}
+        m_TargetAssemblyTypeName: BellaScam, Assembly-CSharp
+        m_MethodName: Message3Scam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1951443272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7494,4 +7906,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 1942862248}
   - {fileID: 1526393376}
+  - {fileID: 704770641}
   - {fileID: 2025684124}
