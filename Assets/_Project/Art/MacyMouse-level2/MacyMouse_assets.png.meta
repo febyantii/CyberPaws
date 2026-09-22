@@ -1,0 +1,1324 @@
+fileFormatVersion: 2
+guid: 1b4563ed296f67f4dbdff25bc186d267
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MacyMouse_assets_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 754
+        width: 593
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a23ef16a76b9ff4391098094a0e3e9d
+      internalID: -2099671212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_1
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 797
+        width: 194
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425b855ed50951446890df89170a820c
+      internalID: -1768277594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_2
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 754
+        width: 726
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcd3c75ddd332d4e95f9ddaa3324b0b
+      internalID: -626017833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_3
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 792
+        width: 36
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718820d4cf7b3c64481157bb01c13f79
+      internalID: -1548005581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_4
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 785
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc6bb6b15b9b7646afa0c6ad292722c
+      internalID: -472971802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 579
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1743e9c96bd3f149a421d3736dde2f6
+      internalID: -283289540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 592
+        width: 183
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9e3a18727d7b847be8db977a0fc7b5
+      internalID: -94681895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_7
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 594
+        width: 187
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22a3162d1069de43830e30be0c45673
+      internalID: -422759464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_8
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 592
+        width: 183
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94b0d4501a23234799e75cd65e43403
+      internalID: -1230179162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_9
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 592
+        width: 194
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb4b350ae48a954798e5e54e818b7a7
+      internalID: 318395790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_10
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 746
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75475e62212d8714f97cee92f307d2a0
+      internalID: 848193869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 640
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775abfdece4e02049892663c792c71d3
+      internalID: -83679203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_12
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 584
+        width: 184
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441f4ef7e80f16742a28e55428846cc5
+      internalID: 983324498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_13
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 580
+        width: 336
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff81b96e4706e54a98fbb80973046e7
+      internalID: 1934460685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d53722b6a1f72343a2b0413e73232d2
+      internalID: -1778481430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 354
+        width: 175
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809a2d6bac3303845828b96e6e1ba5ed
+      internalID: 555832021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_16
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 354
+        width: 179
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed081139b58d3c3449c2510ca19399f1
+      internalID: -1311797229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_17
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 359
+        width: 185
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f251d8a955a57034c94fe6a0565c62b5
+      internalID: -1049400993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_18
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 536
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f886e05d9232f9a47a3ff5ed6b54a0f4
+      internalID: -2077425737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_19
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 360
+        width: 179
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdc6e98f1373c3458c88c2a4f2fa1cd
+      internalID: -1369022215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_20
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 322
+        width: 381
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50037f26a98ca6d469c0bcef8501667f
+      internalID: 1164648493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_21
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 354
+        width: 166
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f9f3088a4ecd842a5a1467d071db11
+      internalID: -308017823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_22
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 154
+        width: 188
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deabb09df3ea71e49a88a19f1bf913bd
+      internalID: -1658002278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_23
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 142
+        width: 166
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3d910d0a3286a41b1610f482f8d6f2
+      internalID: -1968504086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_24
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 294
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffab6f2c3fe59d4c9d4196b014980b9
+      internalID: 701185813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_25
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 142
+        width: 192
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7331d849fee0fd04a917a937721c4c6e
+      internalID: 244028753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_26
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 144
+        width: 244
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c134a41a77d96341bd7a7a329832d40
+      internalID: 1511853088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_27
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 134
+        width: 185
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d29d08d80312424ba1efcdd536673e7
+      internalID: -52212924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_28
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 124
+        width: 197
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c39138348406eb448aa5c72f5da6eee
+      internalID: 995307665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_29
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 120
+        width: 193
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81632639293fc564aadc9b06d561e39f
+      internalID: 1561675829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_30
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 113
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d057ee0c98d5441b68cf85eb7e1665
+      internalID: -525159875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_31
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 140
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0eb7d64755d6ef43b32a0f5336563d0
+      internalID: 142538367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_32
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 132
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8978d58cd9c32714991af29a0d03aea1
+      internalID: -884346296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 14
+        width: 135
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c881d269bc70814693f664dab88fb6d
+      internalID: 496631594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 15
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fc1f55a413e084db8dc079c6b5ae84
+      internalID: -494698492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_35
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 16
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24dd8e80641ab343b2d53e3f6a3be40
+      internalID: -2056308501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_36
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 11
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebb0c1dea1d5d54fa0c0c790dbd12d2
+      internalID: -2091441601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_37
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 32
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78475c0daec327548bac9421aa7dc153
+      internalID: -1958654677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_38
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 70
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c2c26c7d38c35419d7773456b23314
+      internalID: -1606617001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_39
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 68
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59178c752a82d68469a81d29d596c19a
+      internalID: -1158616624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_40
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 78
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed119aaba3d6e94293fedee84912b90
+      internalID: 2127727973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_41
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 78
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abdcab8b11115943ba2ccb013904201
+      internalID: 1110097158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_42
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 72
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e113557caf81dd47b76a649dd49ea80
+      internalID: 2083841719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_43
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 75
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40b47738a0a2f54897cbad77490c897
+      internalID: -1313210751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_44
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 64
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65147d03f1cfa894888c848c09bc64e1
+      internalID: 1601797777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_45
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 88
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9884ca5c61c63b1408bf4b31cc5c866c
+      internalID: 1148367127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_46
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 42
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f433610a43b8df49b6358e140480ca4
+      internalID: -1448779894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_47
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 40
+        width: 87
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7498a0c89f6c39049a9c951394f845d4
+      internalID: 107399806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_48
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 41
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af069fe5c3438a14d9dadfe20008a38d
+      internalID: -914953425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_49
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 30
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b2c5d0db61da443b1bf4cfe3058a0c
+      internalID: -2138063616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_50
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 20
+        width: 167
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1a7c91fc574c24db12868aba9414d9
+      internalID: 1737519183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_51
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 30
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ff9b2da76218e4797aacb047eec76f
+      internalID: -223118699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_52
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 30
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1ad7a87d9f04944b7c4e9eccfb3587
+      internalID: 2013711396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_53
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 30
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14aa9e19e811a924487829451a81fe94
+      internalID: -1168133594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacyMouse_assets_54
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 32
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a519a7c55e71f49a0240cac7f945c8
+      internalID: 368759081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MacyMouse_assets_0: -2099671212
+      MacyMouse_assets_1: -1768277594
+      MacyMouse_assets_10: 848193869
+      MacyMouse_assets_11: -83679203
+      MacyMouse_assets_12: 983324498
+      MacyMouse_assets_13: 1934460685
+      MacyMouse_assets_14: -1778481430
+      MacyMouse_assets_15: 555832021
+      MacyMouse_assets_16: -1311797229
+      MacyMouse_assets_17: -1049400993
+      MacyMouse_assets_18: -2077425737
+      MacyMouse_assets_19: -1369022215
+      MacyMouse_assets_2: -626017833
+      MacyMouse_assets_20: 1164648493
+      MacyMouse_assets_21: -308017823
+      MacyMouse_assets_22: -1658002278
+      MacyMouse_assets_23: -1968504086
+      MacyMouse_assets_24: 701185813
+      MacyMouse_assets_25: 244028753
+      MacyMouse_assets_26: 1511853088
+      MacyMouse_assets_27: -52212924
+      MacyMouse_assets_28: 995307665
+      MacyMouse_assets_29: 1561675829
+      MacyMouse_assets_3: -1548005581
+      MacyMouse_assets_30: -525159875
+      MacyMouse_assets_31: 142538367
+      MacyMouse_assets_32: -884346296
+      MacyMouse_assets_33: 496631594
+      MacyMouse_assets_34: -494698492
+      MacyMouse_assets_35: -2056308501
+      MacyMouse_assets_36: -2091441601
+      MacyMouse_assets_37: -1958654677
+      MacyMouse_assets_38: -1606617001
+      MacyMouse_assets_39: -1158616624
+      MacyMouse_assets_4: -472971802
+      MacyMouse_assets_40: 2127727973
+      MacyMouse_assets_41: 1110097158
+      MacyMouse_assets_42: 2083841719
+      MacyMouse_assets_43: -1313210751
+      MacyMouse_assets_44: 1601797777
+      MacyMouse_assets_45: 1148367127
+      MacyMouse_assets_46: -1448779894
+      MacyMouse_assets_47: 107399806
+      MacyMouse_assets_48: -914953425
+      MacyMouse_assets_49: -2138063616
+      MacyMouse_assets_5: -283289540
+      MacyMouse_assets_50: 1737519183
+      MacyMouse_assets_51: -223118699
+      MacyMouse_assets_52: 2013711396
+      MacyMouse_assets_53: -1168133594
+      MacyMouse_assets_54: 368759081
+      MacyMouse_assets_6: -94681895
+      MacyMouse_assets_7: -422759464
+      MacyMouse_assets_8: -1230179162
+      MacyMouse_assets_9: 318395790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
