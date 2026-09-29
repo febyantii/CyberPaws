@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 08aa037e4ab7dda4ea6496cf4be0ba75
+guid: 4e4e75f080f1da54396e54182393f98d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,43 +97,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FroggieImage_0
+      name: TryAgainPage_0
       rect:
         serializedVersion: 2
-        x: 1221
+        x: 456
         y: 0
-        width: 553
-        height: 887
+        width: 649
+        height: 204
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c6a5ac95874f53478e91fde4ff5fdbe
-      internalID: 1084763270
+      spriteID: 5904391f5dd787e409a7b242ab5d9fab
+      internalID: 1615024046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FroggieImage_1
+      name: TryAgainPage_1
       rect:
         serializedVersion: 2
-        x: 610
-        y: 0
-        width: 610
-        height: 887
+        x: 465
+        y: 207
+        width: 641
+        height: 181
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e11cbce4783c9418c660a035d70774
-      internalID: 395640841
+      spriteID: 2b90af88233e9404aa332b3de7c9f0fb
+      internalID: -739171404
       vertices: []
       indices: 
       edges: []
@@ -149,8 +149,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FroggieImage_0: 1084763270
-      FroggieImage_1: 395640841
+      TryAgainPage_0: 1615024046
+      TryAgainPage_1: -739171404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

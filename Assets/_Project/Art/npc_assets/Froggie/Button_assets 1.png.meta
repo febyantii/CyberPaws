@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 08aa037e4ab7dda4ea6496cf4be0ba75
+guid: 102f74b2681774b49b40f48e9cb55820
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FroggieImage_0
+      name: Button_assets_0
       rect:
         serializedVersion: 2
-        x: 1221
-        y: 0
-        width: 553
-        height: 887
+        x: 361
+        y: 461
+        width: 834
+        height: 238
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c6a5ac95874f53478e91fde4ff5fdbe
-      internalID: 1084763270
+      spriteID: e5cb127772ad3d348b22032eb32d755a
+      internalID: -706083094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FroggieImage_1
+      name: Button_assets_1
       rect:
         serializedVersion: 2
-        x: 610
-        y: 0
-        width: 610
-        height: 887
+        x: 0
+        y: 364
+        width: 1536
+        height: 330
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e11cbce4783c9418c660a035d70774
-      internalID: 395640841
+      spriteID: 15cc6d7ea131e12488123e574a21aa9b
+      internalID: 1599980435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_assets_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 236
+        width: 817
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc8dfe2a7d24314b894162b0861ef8b
+      internalID: 1341069632
       vertices: []
       indices: 
       edges: []
@@ -149,8 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FroggieImage_0: 1084763270
-      FroggieImage_1: 395640841
+      Button_assets_0: -706083094
+      Button_assets_1: 1599980435
+      Button_assets_2: 1341069632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
