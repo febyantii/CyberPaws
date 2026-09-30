@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,553 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Christmas Demo_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2454
+        width: 529
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7560690656ab12499a7f036767d32de
+      internalID: -1862109381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2457
+        width: 523
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f9b1726619c364b8f5969722d283ea
+      internalID: 1607136057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_2
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 2461
+        width: 529
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367d5477aba90d14a9dd5ef49399779e
+      internalID: 894464158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_3
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 2550
+        width: 736
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3c6f2ea3e0d8e4e924c0d158c2f396
+      internalID: 1737471455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_4
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 2536
+        width: 1166
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a6e7abea9b74549b7eca204c3fb402
+      internalID: -1896571752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_5
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 2474
+        width: 736
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b851226468646924283c0d12d5b471b5
+      internalID: 684692438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2176
+        width: 506
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ff47be9b67fce4f9f70ac2897e229d
+      internalID: -16718607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_7
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 2162
+        width: 522
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77e5b45a0514de47ba9c3794196476a
+      internalID: 442081662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_8
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2090
+        width: 868
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73426d6f8fbb96947838cc9c5df17747
+      internalID: -22021371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_9
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 2075
+        width: 359
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7305c5668da7647bbb4af56c720b33
+      internalID: -1438083116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 995
+        width: 1720
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247782423f88e72458f44344be246207
+      internalID: -1377422917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_11
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1693
+        width: 361
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad112c21ae292064c90979f28c4f442a
+      internalID: 98865148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_12
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 1669
+        width: 432
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17b2de4537b41244b99c66dc71f58fc
+      internalID: 399818734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_13
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1260
+        width: 266
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aef8f78821627743b57bd825c56e8fe
+      internalID: -948870769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_14
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1221
+        width: 267
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e4c5ad474213840a30473ad73220ab
+      internalID: 1739120134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 615
+        width: 261
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a59b1d3998aeb46a6520dd191092c8
+      internalID: -470268527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 615
+        width: 259
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d7db25b566a6f45b9c1d1051ee2e4c
+      internalID: -368316107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_17
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 599
+        width: 261
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a04497ed5eb15145acaeb2e32ef442c
+      internalID: -1587194839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_18
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 604
+        width: 259
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448131d3d09f72c47a478db693b215b1
+      internalID: -1271974621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_19
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 599
+        width: 261
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb4ab4ca2c219943936b5d83ff01bd4
+      internalID: 1827535152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_20
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 594
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed03e6b3ce056bb45a958f16ed4856b6
+      internalID: -1054721019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_21
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 808
+        width: 275
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05fc184093a0e6418efb89fef1eea7d
+      internalID: 1946511623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_22
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 796
+        width: 265
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01f2c2cfef7a764b8b97a115e3af1bf
+      internalID: 543496649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1169
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f09e813fc34bc344934d084824fc20a
+      internalID: 887337747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_24
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 46
+        width: 615
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c5e03315a99374a88d9dd306eec5a8
+      internalID: -1131535281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas Demo_25
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 0
+        width: 1357
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c273c328fe2ec8438221026264fa166
+      internalID: 276199040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +652,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Christmas Demo_0: -1862109381
+      Christmas Demo_1: 1607136057
+      Christmas Demo_10: -1377422917
+      Christmas Demo_11: 98865148
+      Christmas Demo_12: 399818734
+      Christmas Demo_13: -948870769
+      Christmas Demo_14: 1739120134
+      Christmas Demo_15: -470268527
+      Christmas Demo_16: -368316107
+      Christmas Demo_17: -1587194839
+      Christmas Demo_18: -1271974621
+      Christmas Demo_19: 1827535152
+      Christmas Demo_2: 894464158
+      Christmas Demo_20: -1054721019
+      Christmas Demo_21: 1946511623
+      Christmas Demo_22: 543496649
+      Christmas Demo_23: 887337747
+      Christmas Demo_24: -1131535281
+      Christmas Demo_25: 276199040
+      Christmas Demo_3: 1737471455
+      Christmas Demo_4: -1896571752
+      Christmas Demo_5: 684692438
+      Christmas Demo_6: -16718607
+      Christmas Demo_7: 442081662
+      Christmas Demo_8: -22021371
+      Christmas Demo_9: -1438083116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
