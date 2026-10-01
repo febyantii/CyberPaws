@@ -1,0 +1,906 @@
+fileFormatVersion: 2
+guid: 335751068b0b20142b28b40f13d593f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3617
+        width: 993
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ce08f59fd28084a9d756df50ac0ee1
+      internalID: 1055042426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_1
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 3617
+        width: 958
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d1ebd90d268a749b39e52ed1b6c735
+      internalID: 1045437570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_2
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 3613
+        width: 270
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be388dae5e36b2741b8e35d9f23a3368
+      internalID: -1628272456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3233
+        width: 627
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82edc448d7263c74f82e94fc9da11374
+      internalID: 924814399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_4
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 3235
+        width: 603
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13edf48c08870ec47927d3961631167a
+      internalID: 1077845911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_5
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 3237
+        width: 603
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8222e74016eb0498a2f0c3720ec203
+      internalID: 1730024729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_6
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 3239
+        width: 603
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6715def53be70a40a19be11e69c521d
+      internalID: 1369311777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_7
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3233
+        width: 602
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b7ff9042d2c724dab4a2f830237751
+      internalID: -1627864299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2875
+        width: 601
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab60d0e6dbbdd641b4695e429f08666
+      internalID: 1463015058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2474
+        width: 627
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756ae93429234eb419f1e28516a29f8e
+      internalID: -207027003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_10
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2478
+        width: 603
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bbd32d2c37bf64e8ca6f84ba09738d
+      internalID: 1170399844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_11
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 2474
+        width: 603
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8390319d7826a43aba1dbd9cbacc9b
+      internalID: 1777748965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_12
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 2480
+        width: 603
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49828321e10ed343bc1069439df49a7
+      internalID: -1413598805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_13
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 2482
+        width: 601
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efdf33569d796b40a7b361c4018116e
+      internalID: -1248612387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2072
+        width: 271
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c665122dbd5d2a43a3ac67c0bb99865
+      internalID: 1228918399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_15
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2075
+        width: 270
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c963919dd31651468164f88ba93f6f0
+      internalID: 756410051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_16
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 2068
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbb1e2f7b33e9547a7f63365b690eb7
+      internalID: 1100453658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2072
+        width: 270
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146d01c372244e4478a1879a62c5294b
+      internalID: 537464967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1665
+        width: 288
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9171a09770d9dae4a8a5d4c159acd080
+      internalID: 350514309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_19
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1622
+        width: 270
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de2f9fb961b82e45abb8c82c8d1eea5
+      internalID: -176840948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_20
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1665
+        width: 269
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4b7e05b6708554bacba1000633046b
+      internalID: -1561177829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_21
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1645
+        width: 288
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f83ba49f8a63348bcd042c14de8998
+      internalID: -1067678077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_22
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1631
+        width: 256
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694ec52813deb0a468e67b5e0e8d42bc
+      internalID: -2122373695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_23
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1647
+        width: 254
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d030c79e539d6049aee3f593bc72b03
+      internalID: 1766786303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_24
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1632
+        width: 272
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b72a89e03ee0ba4a8cba5537fa98cf4
+      internalID: -1882697556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_25
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1633
+        width: 262
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0a3fc5eab1874fb6ee2c78223679f
+      internalID: -121830518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1290
+        width: 270
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef7b9e2b7600b740b2fc1583959de81
+      internalID: -733323081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_27
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1242
+        width: 260
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64334fc354ef87449887a1f05bb89615
+      internalID: 1961349179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_28
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1286
+        width: 260
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5768713957df2494baafb6aac96e8d15
+      internalID: -1408732657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_29
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1254
+        width: 270
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7273525cdb42792448f26d2218c31eb2
+      internalID: -1242162301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_30
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1256
+        width: 237
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c8a37e795ff9e4cb9c33ea6ca5d4dc
+      internalID: -727885124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_31
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1286
+        width: 234
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c18980aa62e4d14a8ecccfff428e305
+      internalID: -1517478652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_32
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1271
+        width: 250
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d464027ee3067d34ca0fac6a053accc4
+      internalID: 522353227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_33
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 35
+        width: 976
+        height: 1490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d776ffef63ea6a4d832451928901347
+      internalID: 888374631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1031
+        height: 1033
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1f1e8601303d5409e06bd3f86a5bfa
+      internalID: 1261343762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cartoony Demo_35
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 1038
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d94a526d434d842baec92033b0585f
+      internalID: 478375304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cute Cartoony Demo_0: 1055042426
+      Cute Cartoony Demo_1: 1045437570
+      Cute Cartoony Demo_10: 1170399844
+      Cute Cartoony Demo_11: 1777748965
+      Cute Cartoony Demo_12: -1413598805
+      Cute Cartoony Demo_13: -1248612387
+      Cute Cartoony Demo_14: 1228918399
+      Cute Cartoony Demo_15: 756410051
+      Cute Cartoony Demo_16: 1100453658
+      Cute Cartoony Demo_17: 537464967
+      Cute Cartoony Demo_18: 350514309
+      Cute Cartoony Demo_19: -176840948
+      Cute Cartoony Demo_2: -1628272456
+      Cute Cartoony Demo_20: -1561177829
+      Cute Cartoony Demo_21: -1067678077
+      Cute Cartoony Demo_22: -2122373695
+      Cute Cartoony Demo_23: 1766786303
+      Cute Cartoony Demo_24: -1882697556
+      Cute Cartoony Demo_25: -121830518
+      Cute Cartoony Demo_26: -733323081
+      Cute Cartoony Demo_27: 1961349179
+      Cute Cartoony Demo_28: -1408732657
+      Cute Cartoony Demo_29: -1242162301
+      Cute Cartoony Demo_3: 924814399
+      Cute Cartoony Demo_30: -727885124
+      Cute Cartoony Demo_31: -1517478652
+      Cute Cartoony Demo_32: 522353227
+      Cute Cartoony Demo_33: 888374631
+      Cute Cartoony Demo_34: 1261343762
+      Cute Cartoony Demo_35: 478375304
+      Cute Cartoony Demo_4: 1077845911
+      Cute Cartoony Demo_5: 1730024729
+      Cute Cartoony Demo_6: 1369311777
+      Cute Cartoony Demo_7: -1627864299
+      Cute Cartoony Demo_8: 1463015058
+      Cute Cartoony Demo_9: -207027003
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
