@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
+using UnityEngine.UI;
 
 public class DraggableLink : MonoBehaviour,
     IBeginDragHandler,
@@ -16,17 +14,22 @@ public class DraggableLink : MonoBehaviour,
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     private Canvas rootCanvas;
+    private LayoutElement layoutElement;
 
-    // Posisi awal item
+    // Posisi awal
     private Transform originalParent;
     private Vector2 originalPosition;
+    private Vector3 originalWorldPosition;
+    private Quaternion originalWorldRotation;
     private int originalSiblingIndex;
     private Vector2 originalSize;
+    private Vector3 originalScale;
+
+    // Zone tempat link sedang berada
+    private DropZone currentZone;
 
     private bool isPlaced = false;
     private bool droppedCorrectly = false;
-
-    private Vector3 originalScale;
 
     public static bool IsDragging { get; private set; }
 
@@ -44,24 +47,50 @@ public class DraggableLink : MonoBehaviour,
         rootCanvas = GetComponentInParent<Canvas>().rootCanvas;
 
         // =========================================
-        // SIMPAN POSISI AWAL SEJAK GAME DIMULAI
+        // SIMPAN UKURAN & POSISI AWAL
         // =========================================
 
         originalParent = transform.parent;
         originalPosition = rectTransform.anchoredPosition;
+
+        // SIMPAN POSISI DUNIA SEJAK AWAL
+        originalWorldPosition = rectTransform.position;
+        originalWorldRotation = rectTransform.rotation;
+
         originalSiblingIndex = transform.GetSiblingIndex();
         originalSize = rectTransform.sizeDelta;
-
         originalScale = transform.localScale;
+
+        // =========================================
+        // LAYOUT ELEMENT
+        // =========================================
+
+        layoutElement = GetComponent<LayoutElement>();
+
+        if (layoutElement == null)
+        {
+            layoutElement = gameObject.AddComponent<LayoutElement>();
+        }
+
+        // PENTING:
+        // Ikuti ukuran ASLI link, yaitu 700 x 150
+        layoutElement.minWidth = originalSize.x;
+        layoutElement.preferredWidth = originalSize.x;
+
+        layoutElement.minHeight = originalSize.y;
+        layoutElement.preferredHeight = originalSize.y;
+
+        layoutElement.flexibleWidth = 0;
+        layoutElement.flexibleHeight = 0;
     }
 
     // =========================================
-    // HOVER LINK
+    // HOVER
     // =========================================
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (!isPlaced && !IsDragging)
+        if (!IsDragging)
         {
             transform.localScale = originalScale * 1.05f;
         }
@@ -69,7 +98,7 @@ public class DraggableLink : MonoBehaviour,
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (!isPlaced)
+        if (!IsDragging)
         {
             transform.localScale = originalScale;
         }
@@ -81,15 +110,22 @@ public class DraggableLink : MonoBehaviour,
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (isPlaced)
-            return;
-
         IsDragging = true;
         droppedCorrectly = false;
 
-        // Pindah sementara ke Canvas agar bisa
-        // bergerak di atas UI lain
+        // Kalau sebelumnya ada di Server / Trash
+        if (currentZone != null)
+        {
+            currentZone.RemovePlacedItem(this);
+            DropZone.NotifyLinkRemoved(this);
+
+            currentZone = null;
+        }
+
+        // Pindahkan sementara ke Canvas utama
         transform.SetParent(rootCanvas.transform, true);
+
+        // Tampilkan paling depan saat sedang di-drag
         transform.SetAsLastSibling();
 
         canvasGroup.alpha = 0.8f;
@@ -104,9 +140,6 @@ public class DraggableLink : MonoBehaviour,
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (isPlaced)
-            return;
-
         RectTransform canvasRect =
             rootCanvas.GetComponent<RectTransform>();
 
@@ -140,36 +173,48 @@ public class DraggableLink : MonoBehaviour,
 
         transform.localScale = originalScale;
 
-        if (!droppedCorrectly && !isPlaced)
+        // Kalau drop tidak berhasil,
+        // kembali ke tempat awal
+        if (!droppedCorrectly)
         {
             ResetPosition();
         }
     }
 
     // =========================================
-    // MASUK DROP ZONE
+    // MASUK ZONE
     // =========================================
 
     public void PlaceInZone(
-        Transform zone,
-        Vector2 position,
-        Vector2 newSize)
+        DropZone zone,
+        Transform contentParent)
     {
         droppedCorrectly = true;
         isPlaced = true;
 
-        transform.SetParent(zone, false);
+        currentZone = zone;
 
-        rectTransform.sizeDelta = newSize;
-        rectTransform.anchoredPosition = position;
+        // Masuk ke ServerItems / TrashItems
+        transform.SetParent(contentParent, false);
 
-        transform.localScale = Vector3.one;
+        // PENTING:
+        // JANGAN ubah sizeDelta menjadi ukuran kecil
+        rectTransform.sizeDelta = originalSize;
+
+        rectTransform.localScale = Vector3.one;
+        rectTransform.localRotation = Quaternion.identity;
+
+        // Pastikan layout tetap memakai ukuran asli
+        layoutElement.minWidth = originalSize.x;
+        layoutElement.preferredWidth = originalSize.x;
+        layoutElement.minHeight = originalSize.y;
+        layoutElement.preferredHeight = originalSize.y;
 
         canvasGroup.blocksRaycasts = true;
     }
 
     // =========================================
-    // KEMBALI KE POSISI AWAL
+    // BALIK KE POSISI AWAL
     // =========================================
 
     public void ResetPosition()
@@ -177,15 +222,44 @@ public class DraggableLink : MonoBehaviour,
         isPlaced = false;
         droppedCorrectly = false;
 
+        // Hapus dari zone
+        if (currentZone != null)
+        {
+            currentZone.RemovePlacedItem(this);
+        }
+
+        DropZone.NotifyLinkRemoved(this);
+
+        currentZone = null;
+
+        // =========================================
+        // KEMBALI KE PARENT AWAL
+        // =========================================
+
         transform.SetParent(originalParent, false);
 
-        rectTransform.anchoredPosition = originalPosition;
+        // Kembalikan ukuran asli
         rectTransform.sizeDelta = originalSize;
 
-        transform.SetSiblingIndex(originalSiblingIndex);
+        // Kembalikan posisi berdasarkan WORLD POSITION
+        rectTransform.position = originalWorldPosition;
 
+        // Kembalikan rotasi
+        rectTransform.rotation = originalWorldRotation;
+
+        // Kembalikan scale
         transform.localScale = originalScale;
 
+        // Kembalikan urutan hierarchy
+        transform.SetSiblingIndex(
+            Mathf.Clamp(
+                originalSiblingIndex,
+                0,
+                originalParent.childCount - 1
+            )
+        );
+
+        // Pastikan terlihat
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
     }

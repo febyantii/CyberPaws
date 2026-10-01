@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MiniGame2Controller : MonoBehaviour
@@ -16,9 +14,19 @@ public class MiniGame2Controller : MonoBehaviour
     public DropZone ServerDropZone;
     public DropZone TrashDropZone;
 
-    private int correctItems = 0;
-
     private DraggableLink[] allLinks;
+
+    // =========================================
+    // JUMLAH SEMUA LINK
+    // =========================================
+
+    public int TotalLinks
+    {
+        get
+        {
+            return allLinks != null ? allLinks.Length : 0;
+        }
+    }
 
     private void Awake()
     {
@@ -27,15 +35,18 @@ public class MiniGame2Controller : MonoBehaviour
 
     private void Start()
     {
-        // Ambil semua link yang ada di Inspection Panel
+        // Ambil semua DraggableLink
+        // termasuk yang berada di child
         allLinks =
             InspeksiPanel.GetComponentsInChildren<DraggableLink>(true);
+
+        Debug.Log("Total link: " + TotalLinks);
 
         ShowDialogue();
     }
 
     // =========================================
-    // AWAL
+    // AWAL GAME
     // =========================================
 
     public void ShowDialogue()
@@ -45,11 +56,11 @@ public class MiniGame2Controller : MonoBehaviour
         PageBenar.SetActive(false);
         PageSalah.SetActive(false);
 
-        correctItems = 0;
+        ResetGame();
     }
 
     // =========================================
-    // KLIK "INSPEKSI PESAN"
+    // KLIK INSPEKSI
     // =========================================
 
     public void OpenInspection()
@@ -63,28 +74,7 @@ public class MiniGame2Controller : MonoBehaviour
     }
 
     // =========================================
-    // ITEM BENAR
-    // =========================================
-
-    public void CorrectItemPlaced()
-    {
-        correctItems++;
-
-        Debug.Log(
-            "Item benar: " +
-            correctItems +
-            "/4"
-        );
-
-        // Kalau semua 4 sudah benar
-        if (correctItems >= 4)
-        {
-            ShowCorrect();
-        }
-    }
-
-    // =========================================
-    // SALAH DROP
+    // SALAH
     // =========================================
 
     public void ShowWrong()
@@ -92,11 +82,11 @@ public class MiniGame2Controller : MonoBehaviour
         InspeksiPanel.SetActive(false);
         PageSalah.SetActive(true);
 
-        Debug.Log("Jawaban salah!");
+        Debug.Log("Ada link yang salah!");
     }
 
     // =========================================
-    // PAGE BENAR
+    // SEMUA BENAR
     // =========================================
 
     public void ShowCorrect()
@@ -104,7 +94,7 @@ public class MiniGame2Controller : MonoBehaviour
         InspeksiPanel.SetActive(false);
         PageBenar.SetActive(true);
 
-        Debug.Log("Semua jawaban benar!");
+        Debug.Log("Semua link benar!");
     }
 
     // =========================================
@@ -120,20 +110,37 @@ public class MiniGame2Controller : MonoBehaviour
     }
 
     // =========================================
-    // RESET SEMUA ITEM
+    // RESET GAME
     // =========================================
 
     private void ResetGame()
     {
-        correctItems = 0;
+        // Reset data hasil drop
+        DropZone.ResetAllResults();
 
-        foreach (DraggableLink link in allLinks)
+        // Reset daftar item dalam zone
+        if (ServerDropZone != null)
         {
-            link.ResetPosition();
+            ServerDropZone.ClearPlacedItems();
         }
 
-        ServerDropZone.ClearPlacedItems();
-        TrashDropZone.ClearPlacedItems();
+        if (TrashDropZone != null)
+        {
+            TrashDropZone.ClearPlacedItems();
+        }
+
+        // Kembalikan semua link
+        // ke posisi awal
+        if (allLinks != null)
+        {
+            foreach (DraggableLink link in allLinks)
+            {
+                if (link != null)
+                {
+                    link.ResetPosition();
+                }
+            }
+        }
     }
 
     // =========================================

@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
 
 public class DropZone : MonoBehaviour,
     IDropHandler,
@@ -11,8 +9,19 @@ public class DropZone : MonoBehaviour,
 {
     public bool acceptsSafeLinks;
 
+    // Tempat link akan dimasukkan
+    public Transform contentParent;
+
     private Vector3 originalScale;
-    private List<DraggableLink> placedItems = new List<DraggableLink>();
+
+    private List<DraggableLink> placedItems =
+        new List<DraggableLink>();
+
+    // Menyimpan hasil setiap link
+    // true  = benar
+    // false = salah
+    private static Dictionary<DraggableLink, bool> placedResults =
+        new Dictionary<DraggableLink, bool>();
 
     private void Awake()
     {
@@ -20,20 +29,16 @@ public class DropZone : MonoBehaviour,
     }
 
     // =========================================
-    // MOUSE MASUK KE SERVER / TRASH SAAT DRAG
+    // HOVER DROP ZONE
     // =========================================
 
     public void OnPointerEnter(PointerEventData eventData)
     {
         if (DraggableLink.IsDragging)
         {
-            transform.localScale = originalScale * 1.08f;
+            transform.localScale = originalScale * 1.03f;
         }
     }
-
-    // =========================================
-    // MOUSE KELUAR
-    // =========================================
 
     public void OnPointerExit(PointerEventData eventData)
     {
@@ -41,14 +46,15 @@ public class DropZone : MonoBehaviour,
     }
 
     // =========================================
-    // ITEM DI-DROP
+    // DROP LINK
     // =========================================
 
     public void OnDrop(PointerEventData eventData)
     {
         transform.localScale = originalScale;
 
-        GameObject droppedObject = eventData.pointerDrag;
+        GameObject droppedObject =
+            eventData.pointerDrag;
 
         if (droppedObject == null)
             return;
@@ -59,54 +65,156 @@ public class DropZone : MonoBehaviour,
         if (link == null)
             return;
 
+        // Cek apakah link benar untuk zone ini
         bool isCorrect =
             link.isSafeLink == acceptsSafeLinks;
 
-        // =====================================
-        // BENAR
-        // =====================================
+        // =========================================
+        // TENTUKAN PARENT
+        // =========================================
 
-        if (isCorrect)
+        Transform targetParent = contentParent;
+
+        if (targetParent == null)
         {
-            int index = placedItems.Count;
-
-            // Ukuran link saat sudah masuk target
-            Vector2 newSize = new Vector2(320f, 48f);
-
-            // Posisi item di dalam SERVER / TRASH
-            float yPosition = -25f - (index * 55f);
-
-            Vector2 position =
-                new Vector2(0f, yPosition);
-
-            link.PlaceInZone(
-                transform,
-                position,
-                newSize
-            );
-
-            placedItems.Add(link);
-
-            MiniGame2Controller.Instance.CorrectItemPlaced();
+            targetParent = transform;
         }
 
-        // =====================================
-        // SALAH
-        // =====================================
+        // =========================================
+        // MASUKKAN LINK KE ZONE
+        // BENAR ATAU SALAH TETAP MASUK
+        // =========================================
+
+        link.PlaceInZone(
+            this,
+            targetParent
+        );
+
+        if (!placedItems.Contains(link))
+        {
+            placedItems.Add(link);
+        }
+
+        // Simpan hasil link
+        placedResults[link] = isCorrect;
+
+        Debug.Log(
+            "Link masuk: " +
+            placedResults.Count +
+            "/" +
+            MiniGame2Controller.Instance.TotalLinks
+        );
+
+        // =========================================
+        // CEK APAKAH SEMUA SUDAH MASUK
+        // =========================================
+
+        CheckAllLinksPlaced();
+    }
+
+    // =========================================
+    // CEK SEMUA LINK
+    // =========================================
+
+    private void CheckAllLinksPlaced()
+    {
+        int totalLinks =
+            MiniGame2Controller.Instance.TotalLinks;
+
+        // Safety
+        if (totalLinks <= 0)
+            return;
+
+        // =========================================
+        // BELUM SEMUA MASUK
+        // =========================================
+
+        if (placedResults.Count < totalLinks)
+        {
+            Debug.Log(
+                "Belum selesai. " +
+                placedResults.Count +
+                "/" +
+                totalLinks
+            );
+
+            return;
+        }
+
+        // =========================================
+        // SEMUA SUDAH MASUK
+        // SEKARANG CEK HASIL
+        // =========================================
+
+        bool allCorrect = true;
+
+        foreach (bool result in placedResults.Values)
+        {
+            if (!result)
+            {
+                allCorrect = false;
+                break;
+            }
+        }
+
+        // =========================================
+        // ADA YANG SALAH
+        // =========================================
+
+        if (!allCorrect)
+        {
+            MiniGame2Controller.Instance.ShowWrong();
+        }
+
+        // =========================================
+        // SEMUANYA BENAR
+        // =========================================
 
         else
         {
-            MiniGame2Controller.Instance.ShowWrong();
+            MiniGame2Controller.Instance.ShowCorrect();
         }
     }
 
     // =========================================
-    // RESET ISI SERVER / TRASH
+    // HAPUS LINK DARI LIST
+    // =========================================
+
+    public void RemovePlacedItem(DraggableLink link)
+    {
+        placedItems.Remove(link);
+    }
+
+    // =========================================
+    // HAPUS HASIL LINK
+    // =========================================
+
+    public static void NotifyLinkRemoved(
+        DraggableLink link)
+    {
+        if (placedResults.ContainsKey(link))
+        {
+            placedResults.Remove(link);
+        }
+    }
+
+    // =========================================
+    // RESET HASIL SEMUA LINK
+    // =========================================
+
+    public static void ResetAllResults()
+    {
+        placedResults.Clear();
+    }
+
+    // =========================================
+    // RESET ZONE
     // =========================================
 
     public void ClearPlacedItems()
     {
         placedItems.Clear();
+
         transform.localScale = originalScale;
     }
 }
