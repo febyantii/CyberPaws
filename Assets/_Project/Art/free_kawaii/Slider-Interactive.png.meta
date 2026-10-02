@@ -1,0 +1,994 @@
+fileFormatVersion: 2
+guid: b80c6a8140daad94cb0d8a9394138676
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slider-Interactive_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2765
+        width: 1703
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e63cf5310dced64eb5c18944a1e7faf
+      internalID: -373698282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2627
+        width: 1703
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d93af1e260f814780a56ec6ef308fc
+      internalID: -1109561287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2491
+        width: 1703
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3365dc658410f409f1239e7d0771b8
+      internalID: -928978667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2355
+        width: 1703
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590b3070e8eef234cac2555ceeb12826
+      internalID: 1247278941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_4
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2213
+        width: 95
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e70cd0f0bfde94b99aba4822c4aa90
+      internalID: -1746182294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1755
+        width: 352
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d5bfe41597e5c4bad456210aa705aa
+      internalID: -1964493812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_6
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1755
+        width: 354
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abb77133e7656a4a89d901c2e7163e1
+      internalID: -459280223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_7
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1958
+        width: 328
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b2cc3d6e962d64eb70b6ee1ffc0424
+      internalID: 110780042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_8
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 2028
+        width: 328
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9370cf3c6acab41bde7d44326c4142
+      internalID: -551485112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_9
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 155
+        width: 130
+        height: 2001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ac6cd8a9ac84f49990461ff25a2fd5
+      internalID: -1993034821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_10
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1734
+        width: 285
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5962c609cbfc0b469ac7f08387a25e3
+      internalID: 1383459831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_11
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1734
+        width: 281
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91046a5df61c5224b88d7e670cce88e0
+      internalID: 1990049109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1303
+        width: 354
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdb859838a0b2147a469d310d8b413c
+      internalID: 388688528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_13
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1303
+        width: 354
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3831c4b4d64efa841ac9075667e2008c
+      internalID: -1258632207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_14
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1561
+        width: 279
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47859eb5ccc33245acb5f7120c6028d
+      internalID: -314538270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_15
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1558
+        width: 285
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f8e9a4ecbc8ef429cf0e626d7323c7
+      internalID: -2034441814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_16
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1354
+        width: 624
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0105c6566625e47bb6a2ab5fdc23b0
+      internalID: 614226372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_17
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 906
+        width: 272
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1169a71f5f7c040aeddc9848d995bf
+      internalID: -854826056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_18
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1168
+        width: 463
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b519bff019af024e921302e4e3be395
+      internalID: 572455111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 890
+        width: 347
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b3b52baae20ef48b3deacab09463fc
+      internalID: -228099139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_20
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 953
+        width: 171
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34438eee8487440429879d5fa7a4b159
+      internalID: -1401179705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_21
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 972
+        width: 61
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594c2c4d45d1293458a7267b062065bc
+      internalID: -785616428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_22
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 972
+        width: 62
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838776bfc371ef499aba54ee678c5e1
+      internalID: -1395448183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_23
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 508
+        width: 243
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc14a4bbf1566784bae49702eff8592a
+      internalID: 755673729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_24
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 707
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8321cbda23e034b4ba474bc66ffcc454
+      internalID: 1511307971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_25
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 503
+        width: 229
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6e473efc7042f4ab68f12ad548be11
+      internalID: 1290515416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_26
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 685
+        width: 257
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2c503811a22624aae43d7682db47e9
+      internalID: 497876526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_27
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 705
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106389383d9166648b69c81705b73efd
+      internalID: -1919753418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_28
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 707
+        width: 70
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cffd9f9f7bb3244c8d9e26a26f53b88
+      internalID: -2125283221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_29
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 702
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017845f0963890144b2059c8818556bd
+      internalID: 406782341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_30
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 699
+        width: 105
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9876868c4265f45b75c69fff830712
+      internalID: 404234995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_31
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 726
+        width: 43
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7de6548e32afcf478861fd19b829224
+      internalID: -629355589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_32
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 685
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5818614f5b5c3a498a638cad9d1a284
+      internalID: -1101841795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 93
+        width: 334
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c6cdcfc41675f47b03089a00b0925c
+      internalID: -1448640964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_34
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 93
+        width: 333
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8d580447a6d1547bf8c8980c7c7831
+      internalID: 1713222065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_35
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 215
+        width: 334
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7518151ab3a8c143976bdddbc95edfd
+      internalID: -1829644734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_36
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 163
+        width: 206
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d499b297e8e2749bc793cacefe6b1e
+      internalID: 925840009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_37
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 40
+        width: 178
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75692f6c1c56354cb31a584fce4c811
+      internalID: -768403853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_38
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 46
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5b5a7ca1516e74c9bd09c215814a74
+      internalID: 574677539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Interactive_39
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 78
+        width: 80
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca67963cca527e44872fb0ad3b08745
+      internalID: -1717698800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Slider-Interactive_0: -373698282
+      Slider-Interactive_1: -1109561287
+      Slider-Interactive_10: 1383459831
+      Slider-Interactive_11: 1990049109
+      Slider-Interactive_12: 388688528
+      Slider-Interactive_13: -1258632207
+      Slider-Interactive_14: -314538270
+      Slider-Interactive_15: -2034441814
+      Slider-Interactive_16: 614226372
+      Slider-Interactive_17: -854826056
+      Slider-Interactive_18: 572455111
+      Slider-Interactive_19: -228099139
+      Slider-Interactive_2: -928978667
+      Slider-Interactive_20: -1401179705
+      Slider-Interactive_21: -785616428
+      Slider-Interactive_22: -1395448183
+      Slider-Interactive_23: 755673729
+      Slider-Interactive_24: 1511307971
+      Slider-Interactive_25: 1290515416
+      Slider-Interactive_26: 497876526
+      Slider-Interactive_27: -1919753418
+      Slider-Interactive_28: -2125283221
+      Slider-Interactive_29: 406782341
+      Slider-Interactive_3: 1247278941
+      Slider-Interactive_30: 404234995
+      Slider-Interactive_31: -629355589
+      Slider-Interactive_32: -1101841795
+      Slider-Interactive_33: -1448640964
+      Slider-Interactive_34: 1713222065
+      Slider-Interactive_35: -1829644734
+      Slider-Interactive_36: 925840009
+      Slider-Interactive_37: -768403853
+      Slider-Interactive_38: 574677539
+      Slider-Interactive_39: -1717698800
+      Slider-Interactive_4: -1746182294
+      Slider-Interactive_5: -1964493812
+      Slider-Interactive_6: -459280223
+      Slider-Interactive_7: 110780042
+      Slider-Interactive_8: -551485112
+      Slider-Interactive_9: -1993034821
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
