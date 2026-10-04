@@ -8,6 +8,9 @@ public class MiaGameManager : MonoBehaviour
     public GameObject miaGamePanel;
     public GameObject congratulationPanel;
 
+    [Header("Main Panel")]
+    public MainPanelManager mainPanelManager;
+
     private MiaLinkCards[] links;
 
     // =========================================================
@@ -194,6 +197,34 @@ public class MiaGameManager : MonoBehaviour
 
         Debug.Log(
             "SEMUA JAWABAN BENAR!"
+        );
+    }
+
+    // =========================================================
+    // BACK TO HOME
+    // =========================================================
+
+    public void BackToHome()
+    {
+        // Tutup Congratulation Panel
+        if (congratulationPanel != null)
+            congratulationPanel.SetActive(false);
+
+        // Mia selesai → LOCK MIA
+        if (mainPanelManager != null)
+            mainPanelManager.LockMia();
+
+        // Frankie → UNLOCK
+        if (mainPanelManager != null)
+            mainPanelManager.UnlockFrankie();
+
+        // Kembali ke Main Menu
+        if (mainPanelManager != null)
+            mainPanelManager.BackToMainMenu();
+
+        Debug.Log(
+            "Mia completed. " +
+            "Mia locked. Frankie unlocked."
         );
     }
 }
