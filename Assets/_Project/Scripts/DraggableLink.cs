@@ -44,7 +44,15 @@ public class DraggableLink : MonoBehaviour,
             canvasGroup = gameObject.AddComponent<CanvasGroup>();
         }
 
-        rootCanvas = GetComponentInParent<Canvas>().rootCanvas;
+        Canvas canvas = GetComponentInParent<Canvas>();
+
+        if (canvas == null)
+        {
+            Debug.LogError("DraggableLink '" + gameObject.name + "' tidak menemukan Canvas!", gameObject);
+            return;
+        }
+
+        rootCanvas = canvas.rootCanvas;
 
         // =========================================
         // SIMPAN UKURAN & POSISI AWAL
