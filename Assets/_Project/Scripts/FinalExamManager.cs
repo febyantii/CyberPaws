@@ -1,3 +1,4 @@
+using System.Collections; // Wajib ditambahin buat pakai Coroutine
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -9,39 +10,56 @@ public class FinalExamManager : MonoBehaviour
     public Button nextButton;
 
     [Header("Scene Configuration")]
-    public string finalExamSceneName = "FinalExamScene"; // Nama scene minigame terakhir
+    public string finalExamSceneName = "MiniGame3"; 
+
+    [Header("Delay Settings")]
+    [Tooltip("Berapa detik jeda sebelum popup muncul setelah balik ke scene ini?")]
+    public float popupDelay = 1.5f;
 
     private void Start()
     {
-        // Pastikan popup mati di awal
+        // 1. PASTIKAN POPUP MATI DULU DI AWAL
         if (finalExamPopupPanel != null)
         {
             finalExamPopupPanel.SetActive(false);
         }
 
-        CheckProgressAndShowPopup();
+        // 2. Jalankan pengecekan tapi pakai delay
+        StartCoroutine(CheckProgressWithDelay());
     }
 
-    private void CheckProgressAndShowPopup()
+    // Coroutine untuk memberi jeda sebelum ngecek dan nampilin popup
+    private IEnumerator CheckProgressWithDelay()
     {
-        // 1. Cek status penyelesaian 3 minigame (1 = Selesai, 0 = Belum)
-        bool isFroggieDone = PlayerPrefs.GetInt("Minigame_Froggie", 0) == 1;
-        bool isBennyDone = PlayerPrefs.GetInt("Minigame_Benny", 0) == 1;
-        bool isMacyDone = PlayerPrefs.GetInt("Minigame_Macy", 0) == 1;
+        yield return new WaitForSeconds(popupDelay);
 
-        // 2. Cek apakah popup ujian akhir sudah pernah ditampilkan sebelumnya
-        bool isPopupAlreadyShown = PlayerPrefs.GetInt("FinalExamPopupShown", 0) == 1;
+        // Tarik data mentahnya dulu
+        int froggie = PlayerPrefs.GetInt("Minigame_Froggie", 0);
+        int benny = PlayerPrefs.GetInt("Minigame_Benny", 0);
+        int macy = PlayerPrefs.GetInt("Minigame_Macy", 0);
+        int popup = PlayerPrefs.GetInt("FinalExamPopupShown", 0);
 
-        // 3. Jika semua minigame kelar & popup belum pernah muncul
-        if (isFroggieDone && isBennyDone && isMacyDone && !isPopupAlreadyShown)
+        // Cetak ke Console biar kelihatan jelas!
+        Debug.Log($"[CEK DATA] Froggie: {froggie} | Benny: {benny} | Macy: {macy} | PopupShown: {popup}");
+
+        // Cek syaratnya
+        if (froggie == 1 && benny == 1 && macy == 1 && popup == 0)
         {
+            Debug.Log("[CEK DATA] Semua syarat terpenuhi! Memunculkan popup...");
             ShowPopup();
+        }
+        else
+        {
+            Debug.Log("[CEK DATA] Popup ditahan karena ada data yang belum bernilai 1 atau popup sudah pernah muncul.");
         }
     }
 
     private void ShowPopup()
     {
         finalExamPopupPanel.SetActive(true);
+
+        // Bekukan waktu game biar player gak bisa jalan-jalan
+        Time.timeScale = 0f; 
 
         if (nextButton != null)
         {
@@ -52,15 +70,17 @@ public class FinalExamManager : MonoBehaviour
 
     private void OnNextButtonClicked()
     {
-        // Tandai bahwa popup sudah dimunculkan agar tidak berulang saat kembali lagi
+        // Balikin waktu ke normal sebelum pindah scene
+        Time.timeScale = 1f; 
+
+        // Tandai biar gak muncul lagi kalau balik ke kota
         PlayerPrefs.SetInt("FinalExamPopupShown", 1);
         PlayerPrefs.Save();
 
-        // Pindah ke scene minigame ujian akhir
+        // Gass ke Final Exam
         SceneManager.LoadScene(finalExamSceneName);
     }
 
-    // [Opsional] Panggil fungsi ini jika mau reset progress saat testing
     [ContextMenu("Reset All Progress")]
     public void ResetProgress()
     {

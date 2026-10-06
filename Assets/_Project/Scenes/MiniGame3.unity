@@ -9757,7 +9757,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 813521747}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79d9922767548084397f3ef06de98119, type: 3}
+  m_Script: {fileID: 11500000, guid: f28078a35b419d44e80fd67b88189c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bellaCharacterProfile: {fileID: 102648139}

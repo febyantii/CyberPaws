@@ -51,6 +51,13 @@ public class AntivirusPurgeController : MonoBehaviour
         antivirusPurgePanel.SetActive(false);
         correctPanel.SetActive(true);
         tryAgainPanel.SetActive(false);
+
+        // --- TAMBAHAN LOGIC SKOR ---
+        // Tambah skor acak 8% - 10%
+        int bonus = Random.Range(8, 11);
+        CityScoreManager.ModifyScore(bonus);
+        
+        Debug.Log($"Purge Berhasil! Security Score bertambah {bonus}%");
     }
 
     void ShowTryAgainPanel()
@@ -58,6 +65,13 @@ public class AntivirusPurgeController : MonoBehaviour
         antivirusPurgePanel.SetActive(false);
         correctPanel.SetActive(false);
         tryAgainPanel.SetActive(true);
+
+        // --- TAMBAHAN LOGIC SKOR ---
+        // Potong skor acak 2% - 5%
+        int penalty = Random.Range(1, 5);
+        CityScoreManager.ModifyScore(-penalty);
+
+        Debug.Log($"Purge Gagal! Security Score berkurang {penalty}%");
     }
 
     public void TryAgain()

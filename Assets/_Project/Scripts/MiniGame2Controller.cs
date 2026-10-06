@@ -85,7 +85,12 @@ public class MiniGame2Controller : MonoBehaviour
         InspeksiPanel.SetActive(false);
         PageSalah.SetActive(true);
 
-        Debug.Log("Ada link yang salah!");
+        // --- TAMBAHAN LOGIC SKOR ---
+        // Potong skor acak 2% - 5%
+        int penalty = Random.Range(1, 5);
+        CityScoreManager.ModifyScore(-penalty);
+        
+        Debug.Log($"Ada link yang salah! Security Score berkurang {penalty}%");
     }
 
     // =========================================
@@ -97,7 +102,12 @@ public class MiniGame2Controller : MonoBehaviour
         InspeksiPanel.SetActive(false);
         PageBenar.SetActive(true);
 
-        Debug.Log("Semua link benar!");
+        // --- TAMBAHAN LOGIC SKOR ---
+        // Tambah skor acak 8% - 10%
+        int bonus = Random.Range(8, 11);
+        CityScoreManager.ModifyScore(bonus);
+
+        Debug.Log($"Semua link benar! Security Score bertambah {bonus}%");
     }
 
     // =========================================

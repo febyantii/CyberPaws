@@ -15,7 +15,6 @@ public class MiniGame1UI : MonoBehaviour
         ShowDialogue();
     }
 
-    // Mematikan semua panel
     void HideAllPanels()
     {
         DialoguePanel.SetActive(false);
@@ -24,19 +23,11 @@ public class MiniGame1UI : MonoBehaviour
         WrongPanel.SetActive(false);
     }
 
-    // ==============================
-    // AWAL GAME
-    // ==============================
-
     public void ShowDialogue()
     {
         HideAllPanels();
         DialoguePanel.SetActive(true);
     }
-
-    // ==============================
-    // BUKA PESAN
-    // ==============================
 
     public void OpenMessage()
     {
@@ -47,26 +38,32 @@ public class MiniGame1UI : MonoBehaviour
     // ==============================
     // PILIH LEGIT = SALAH
     // ==============================
-
     public void ChooseLegit()
     {
         HideAllPanels();
         WrongPanel.SetActive(true);
+
+        // Potong skor acak 2% - 5%
+        int penalty = Random.Range(1, 5);
+        CityScoreManager.ModifyScore(-penalty);
+
+        Debug.Log($"Pilihan Salah! Security Score berkurang {penalty}%");
     }
 
     // ==============================
     // PILIH SCAM = BENAR
     // ==============================
-
     public void ChooseScam()
     {
         HideAllPanels();
         CorrectPanel.SetActive(true);
-    }
 
-    // ==============================
-    // COBA LAGI
-    // ==============================
+        // Tambah skor acak 8% - 10%
+        int bonus = Random.Range(8, 11);
+        CityScoreManager.ModifyScore(bonus);
+
+        Debug.Log($"Pilihan Benar! Security Score bertambah {bonus}%");
+    }
 
     public void TryAgain()
     {
@@ -74,12 +71,10 @@ public class MiniGame1UI : MonoBehaviour
         ScamQuestionPanel.SetActive(true);
     }
 
-    // ==============================
-    // SELESAI
-    // ==============================
-
     public void FinishMiniGame()
     {
-        Debug.Log("MiniGame 1 selesai!");
+        // Kosongin aja / tinggalin buat Debug.Log,
+        // karena perpindahan scene udah di-handle sama tombol continue kamu!
+        Debug.Log("MiniGame 1 Selesai!");
     }
 }
