@@ -151,8 +151,8 @@ MonoBehaviour:
     Take
     another look at the message.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
+  m_sharedMaterial: {fileID: -3938527066023977978, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -819.9171, y: 0, z: 0, w: -356.9356}
+  m_margin: {x: -819.9171, y: 0, z: 80.94666, w: -356.9356}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -288,8 +288,8 @@ MonoBehaviour:
     I just need to click this link:\r\n\r\n\n\nThere are only 10 minutes left.\r\nCan
     you help me check if it\u2019s safe?\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
+  m_sharedMaterial: {fileID: -3938527066023977978, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -422,8 +422,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Student
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
+  m_sharedMaterial: {fileID: -3938527066023977978, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1074,7 +1074,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8516755293490531923
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2102,7 +2102,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2072946636240852861
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2235,8 +2235,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Benny Badger
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
+  m_sharedMaterial: {fileID: -3938527066023977978, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2377,8 +2377,8 @@ MonoBehaviour:
     Never click suspicious
     links!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
+  m_sharedMaterial: {fileID: -3938527066023977978, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2438,7 +2438,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -819.9171, y: 0, z: 0, w: -356.9356}
+  m_margin: {x: -819.9171, y: 0, z: 129.51447, w: -356.9356}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2588,8 +2588,8 @@ MonoBehaviour:
   m_text: "Congratulations!\r\nYou won $5,000!\n\r\nClaim now:\n\n\r\nOnly 10 minutes
     left!\nDon\u2019t miss out!\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
+  m_sharedMaterial: {fileID: -3938527066023977978, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3396,8 +3396,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Is this LEGIT or a SCAM?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
+  m_sharedMaterial: {fileID: -3938527066023977978, guid: 2abc9f5533c5edc4b9a78dc37126a919, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3612,7 +3612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6148822203153108382
 RectTransform:
   m_ObjectHideFlags: 0
