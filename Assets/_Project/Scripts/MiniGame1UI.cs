@@ -9,7 +9,6 @@ public class MiniGame1UI : MonoBehaviour
     public GameObject ScamQuestionPanel;
     public GameObject CorrectPanel;
     public GameObject WrongPanel;
-    public GameObject CompletePanel;
 
     void Start()
     {
@@ -23,7 +22,6 @@ public class MiniGame1UI : MonoBehaviour
         ScamQuestionPanel.SetActive(false);
         CorrectPanel.SetActive(false);
         WrongPanel.SetActive(false);
-        CompletePanel.SetActive(false);
     }
 
     // ==============================
@@ -74,16 +72,6 @@ public class MiniGame1UI : MonoBehaviour
     {
         HideAllPanels();
         ScamQuestionPanel.SetActive(true);
-    }
-
-    // ==============================
-    // LANJUT KE COMPLETE
-    // ==============================
-
-    public void GoToComplete()
-    {
-        HideAllPanels();
-        CompletePanel.SetActive(true);
     }
 
     // ==============================

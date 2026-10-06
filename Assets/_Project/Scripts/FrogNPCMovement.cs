@@ -124,6 +124,34 @@ public class FrogNPCMovement : MonoBehaviour
         UpdateAnimator(true, snapDir, lastFacingDirection);
     }
 
+    // Deteksi benturan dengan collider tembok/map
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!isWaiting)
+        {
+            StopAllCoroutines();
+            StartCoroutine(TurnAroundOnCollision());
+        }
+    }
+
+    private IEnumerator TurnAroundOnCollision()
+    {
+        isWaiting = true;
+
+        if (rb != null)
+        {
+            rb.velocity = Vector2.zero;
+        }
+
+        UpdateAnimator(false, Vector2.zero, lastFacingDirection);
+
+        yield return new WaitForSeconds(waitTime);
+
+        // Pindah target ke waypoint selanjutnya agar berbalik arah
+        currentTargetIndex = (currentTargetIndex + 1) % waypoints.Length;
+        isWaiting = false;
+    }
+
     private Vector2 GetDominantDirection(Vector2 dir)
     {
         if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
