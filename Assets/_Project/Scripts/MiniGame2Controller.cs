@@ -35,13 +35,16 @@ public class MiniGame2Controller : MonoBehaviour
 
     private void Start()
     {
+        // Aktifkan sebentar supaya semua DraggableLink menjalankan Awake()
+        InspeksiPanel.SetActive(true);
+
         // Ambil semua DraggableLink
-        // termasuk yang berada di child
         allLinks =
             InspeksiPanel.GetComponentsInChildren<DraggableLink>(true);
 
         Debug.Log("Total link: " + TotalLinks);
 
+        // Tampilkan Dialogue dan sembunyikan panel lainnya
         ShowDialogue();
     }
 
