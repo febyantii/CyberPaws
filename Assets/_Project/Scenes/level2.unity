@@ -517,13 +517,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 341611257}
     m_Modifications:
+    - target: {fileID: 1679700526086743985, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_text
+      value: 'Your package is on the way!
+
+
+        To track your package, download
+        PackageTracker.apk now!'
+      objectReference: {fileID: 0}
     - target: {fileID: 2973725308402858018, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3085404248140578428, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 22.603
+      objectReference: {fileID: 0}
+    - target: {fileID: 3085404248140578428, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 84.699
       objectReference: {fileID: 0}
     - target: {fileID: 3847660584494033090, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
       propertyPath: m_Name
       value: level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711832461308839960, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_text
+      value: Macy Mouse Message Inspection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711832461308839960, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_fontSize
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711832461308839960, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_margin.x
+      value: -354.24478
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711832461308839960, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_margin.z
+      value: -63.598396
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711832461308839960, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 4724833077880349912, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
       propertyPath: m_Pivot.x
@@ -605,6 +641,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6430992636259778124, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 731.998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430992636259778124, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 413.642
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430992636259778124, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -402
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430992636259778124, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -131
+      objectReference: {fileID: 0}
     - target: {fileID: 6910930126305285071, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
       propertyPath: m_Color.a
       value: 0.5882353
@@ -652,6 +704,18 @@ PrefabInstance:
     - target: {fileID: 7253199094718335313, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567417479018901223, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_text
+      value: Inspect Message
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019028133645541242, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 406c2d119c459ab4db778863b53aff65, type: 3}
+    - target: {fileID: 9103402833889481800, guid: e75c70b5114d7a74f906920114aa49bd, type: 3}
+      propertyPath: m_text
+      value: Courier
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

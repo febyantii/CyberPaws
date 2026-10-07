@@ -87,7 +87,7 @@ public class MiniGame2Controller : MonoBehaviour
 
         // --- TAMBAHAN LOGIC SKOR ---
         // Potong skor acak 2% - 5%
-        int penalty = Random.Range(1, 5);
+        int penalty = Random.Range(2, 5);
         CityScoreManager.ModifyScore(-penalty);
         
         Debug.Log($"Ada link yang salah! Security Score berkurang {penalty}%");
@@ -104,7 +104,7 @@ public class MiniGame2Controller : MonoBehaviour
 
         // --- TAMBAHAN LOGIC SKOR ---
         // Tambah skor acak 8% - 10%
-        int bonus = Random.Range(8, 11);
+        int bonus = Random.Range(4, 6);
         CityScoreManager.ModifyScore(bonus);
 
         Debug.Log($"Semua link benar! Security Score bertambah {bonus}%");
