@@ -44,7 +44,7 @@ public class MiniGame1UI : MonoBehaviour
         WrongPanel.SetActive(true);
 
         // Potong skor acak 2% - 5%
-        int penalty = Random.Range(1, 5);
+        int penalty = Random.Range(4, 6);
         CityScoreManager.ModifyScore(-penalty);
 
         Debug.Log($"Pilihan Salah! Security Score berkurang {penalty}%");
