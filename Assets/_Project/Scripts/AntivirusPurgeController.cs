@@ -54,7 +54,7 @@ public class AntivirusPurgeController : MonoBehaviour
 
         // --- TAMBAHAN LOGIC SKOR ---
         // Tambah skor acak 8% - 10%
-        int bonus = Random.Range(4, 6);
+        int bonus = Random.Range(5, 6);
         CityScoreManager.ModifyScore(bonus);
         
         Debug.Log($"Purge Berhasil! Security Score bertambah {bonus}%");
@@ -68,7 +68,7 @@ public class AntivirusPurgeController : MonoBehaviour
 
         // --- TAMBAHAN LOGIC SKOR ---
         // Potong skor acak 2% - 5%
-        int penalty = Random.Range(2, 5);
+        int penalty = Random.Range(5, 6);
         CityScoreManager.ModifyScore(-penalty);
 
         Debug.Log($"Purge Gagal! Security Score berkurang {penalty}%");
