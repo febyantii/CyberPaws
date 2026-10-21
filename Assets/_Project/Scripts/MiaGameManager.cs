@@ -200,6 +200,46 @@ public class MiaGameManager : MonoBehaviour
         );
     }
 
+    
+    // =========================================================
+    // RESET MIA GAME
+    // Dipanggil ketika player menekan Restart
+    // =========================================================
+
+    public void ResetMiaGame()
+    {
+        // Kembali ke halaman awal Mia
+        if (characterProfilePanel != null)
+            characterProfilePanel.SetActive(true);
+
+        if (smsPanel != null)
+            smsPanel.SetActive(false);
+
+        if (miaGamePanel != null)
+            miaGamePanel.SetActive(false);
+
+        if (congratulationPanel != null)
+            congratulationPanel.SetActive(false);
+
+        // Refresh daftar kartu Mia
+        RefreshLinks();
+
+        // Reset seluruh kartu ke posisi awal
+        if (links != null)
+        {
+            foreach (MiaLinkCards link in links)
+            {
+                if (link != null)
+                {
+                    link.ResetLinkCard();
+                }
+            }
+        }
+
+        Debug.Log("Mia game reset to initial state.");
+    }
+
+
     // =========================================================
     // BACK TO HOME
     // =========================================================

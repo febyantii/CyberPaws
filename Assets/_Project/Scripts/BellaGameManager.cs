@@ -302,6 +302,19 @@ public class BellaGameManager : MonoBehaviour
         Debug.Log("BELLA COMPLETED!");
     }
 
+    
+    // =========================================================
+    // RESET BELLA GAME
+    // Dipanggil ketika player menekan Restart
+    // =========================================================
+
+    public void ResetBellaGame()
+    {
+        SetupBellaGame();
+
+        Debug.Log("Bella game reset to initial state.");
+    }
+
 
     // =========================================================
     // SUCCESS → MAIN MENU

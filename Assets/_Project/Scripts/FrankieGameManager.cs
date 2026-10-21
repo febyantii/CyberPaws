@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // Ini tambahan wajib untuk pindah scene
 
 public class FrankieGameManager : MonoBehaviour
 {
@@ -127,9 +128,22 @@ public class FrankieGameManager : MonoBehaviour
         Debug.Log("FRANKIE → CONGRATULATION!");
     }
 
+    
+    // =====================================================
+    // RESET FRANKIE GAME
+    // =====================================================
+
+    public void ResetFrankieGame()
+    {
+        SetupFrankie();
+
+        Debug.Log("Frankie game reset to initial state.");
+    }
+
+
 
     // =====================================================
-    // CONGRATULATION → MAIN MENU
+    // CONGRATULATION → PINDAH KE CLOSING SCENE
     // =====================================================
 
     public void BackToHome()
@@ -137,15 +151,9 @@ public class FrankieGameManager : MonoBehaviour
         if (congratulationPanel != null)
             congratulationPanel.SetActive(false);
 
-        if (mainPanelManager != null)
-        {
-            // Frankie selesai
-            mainPanelManager.LockFrankie();
-
-            // Kembali ke Main Menu
-            mainPanelManager.BackToMainMenu();
-        }
-
-        Debug.Log("FRANKIE COMPLETED → Back to Main Menu");
+        Debug.Log("FRANKIE COMPLETED → Langsung pindah ke Closing Scene");
+        
+        // Memuat scene penutup hasil akhir (Pastikan namamu di sini sama persis dengan nama Scene baru yang kamu buat)
+        SceneManager.LoadScene("ClosingScene"); 
     }
 }

@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,22 +26,43 @@ public class MainPanelManager : MonoBehaviour
 
     private void SetupInitialState()
     {
+        ResetToInitialState();
+    }
+
+    // =========================================================
+    // RESET ENTIRE MINI GAME 3 TO INITIAL STATE
+    // Dipanggil ketika player menekan tombol Restart
+    // =========================================================
+
+    public void ResetToInitialState()
+    {
         // Main Menu aktif
-        mainMenuPanel.SetActive(true);
+        if (mainMenuPanel != null)
+            mainMenuPanel.SetActive(true);
 
         // Semua Game Panel mati
-        bellaGamePanel.SetActive(false);
-        miaGamePanel.SetActive(false);
-        frankieGamePanel.SetActive(false);
+        if (bellaGamePanel != null)
+            bellaGamePanel.SetActive(false);
+
+        if (miaGamePanel != null)
+            miaGamePanel.SetActive(false);
+
+        if (frankieGamePanel != null)
+            frankieGamePanel.SetActive(false);
 
         // Bella = UNLOCKED
-        bellaRequestCard.interactable = true;
+        if (bellaRequestCard != null)
+            bellaRequestCard.interactable = true;
 
         // Mia = LOCKED
-        miaRequestCard.interactable = false;
+        if (miaRequestCard != null)
+            miaRequestCard.interactable = false;
 
         // Frankie = LOCKED
-        frankieRequestCard.interactable = false;
+        if (frankieRequestCard != null)
+            frankieRequestCard.interactable = false;
+
+        Debug.Log("MiniGame3 reset to initial state.");
     }
 
     // =========================================================
@@ -61,7 +83,6 @@ public class MainPanelManager : MonoBehaviour
 
     public void OpenMia()
     {
-        // Safety check
         if (!miaRequestCard.interactable)
         {
             Debug.Log("Mia is still locked!");
@@ -80,7 +101,6 @@ public class MainPanelManager : MonoBehaviour
 
     public void OpenFrankie()
     {
-        // Safety check
         if (!frankieRequestCard.interactable)
         {
             Debug.Log("Frankie is still locked!");
@@ -100,7 +120,8 @@ public class MainPanelManager : MonoBehaviour
 
     public void UnlockMia()
     {
-        miaRequestCard.interactable = true;
+        if (miaRequestCard != null)
+            miaRequestCard.interactable = true;
 
         Debug.Log("Mia is now UNLOCKED!");
     }
@@ -112,7 +133,8 @@ public class MainPanelManager : MonoBehaviour
 
     public void UnlockFrankie()
     {
-        frankieRequestCard.interactable = true;
+        if (frankieRequestCard != null)
+            frankieRequestCard.interactable = true;
 
         Debug.Log("Frankie is now UNLOCKED!");
     }
@@ -123,51 +145,54 @@ public class MainPanelManager : MonoBehaviour
 
     public void BackToMainMenu()
     {
-        // Main Menu ON
-        mainMenuPanel.SetActive(true);
+        if (mainMenuPanel != null)
+            mainMenuPanel.SetActive(true);
 
-        // Semua Game Panel OFF
-        bellaGamePanel.SetActive(false);
-        miaGamePanel.SetActive(false);
-        frankieGamePanel.SetActive(false);
+        if (bellaGamePanel != null)
+            bellaGamePanel.SetActive(false);
+
+        if (miaGamePanel != null)
+            miaGamePanel.SetActive(false);
+
+        if (frankieGamePanel != null)
+            frankieGamePanel.SetActive(false);
 
         Debug.Log("Back to Main Menu");
     }
 
     // =========================================================
     // LOCK BELLA
-    // Dipakai setelah Bella selesai
     // =========================================================
 
     public void LockBella()
     {
-        bellaRequestCard.interactable = false;
+        if (bellaRequestCard != null)
+            bellaRequestCard.interactable = false;
 
         Debug.Log("Bella is now LOCKED.");
     }
 
     // =========================================================
     // LOCK MIA
-    // Dipakai setelah Mia selesai
     // =========================================================
 
     public void LockMia()
     {
-        miaRequestCard.interactable = false;
+        if (miaRequestCard != null)
+            miaRequestCard.interactable = false;
 
         Debug.Log("Mia is now LOCKED.");
     }
 
     // =========================================================
     // LOCK FRANKIE
-    // Dipakai setelah Frankie selesai
     // =========================================================
 
     public void LockFrankie()
     {
-        frankieRequestCard.interactable = false;
+        if (frankieRequestCard != null)
+            frankieRequestCard.interactable = false;
 
         Debug.Log("Frankie is now LOCKED.");
     }
 }
-

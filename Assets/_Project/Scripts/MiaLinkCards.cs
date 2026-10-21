@@ -367,6 +367,34 @@ public class MiaLinkCards : MonoBehaviour,
         wasDropped = false;
     }
 
+    
+    // =========================================================
+    // RESET LINK CARD
+    // Dipanggil ketika seluruh game di-restart
+    // =========================================================
+
+    public void ResetLinkCard()
+    {
+        // Hentikan status drag
+        isDragging = false;
+        wasDropped = false;
+
+        // Pulihkan interaksi kartu
+        if (canvasGroup != null)
+        {
+            canvasGroup.alpha = 1f;
+            canvasGroup.blocksRaycasts = true;
+        }
+
+        // Kembalikan kartu ke posisi awal di All Box
+        ResetToHome();
+
+        // Pastikan tidak ada zona lama yang tersimpan
+        currentZone = null;
+        previousZone = null;
+    }
+
+
     // =========================================================
     // GET CURRENT ZONE
     // =========================================================

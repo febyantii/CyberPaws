@@ -56,8 +56,24 @@ public class MainMenuManager : MonoBehaviour
         }
     }
 
+    // Dipanggil oleh tombol Continue/Play di dalam Briefing Panel
     public void StartGame(string sceneName)
     {
+        // --- LOGIC RESET DATA SEBELUM MULAI GAME ---
+        
+        // 1. Reset Skor ke 90%
+        CityScoreManager.ResetScore();
+
+        // 2. Hapus semua data progres minigame sebelumnya (agar ngulang dari awal)
+        PlayerPrefs.DeleteKey("Minigame_Froggie");
+        PlayerPrefs.DeleteKey("Minigame_Benny");
+        PlayerPrefs.DeleteKey("Minigame_Macy");
+        PlayerPrefs.DeleteKey("FinalExamPopupShown");
+        PlayerPrefs.Save();
+
+        Debug.Log("Skor dikembalikan ke 90% dan progres direset. Memuat scene: " + sceneName);
+
+        // 3. Pindah ke Scene Utama
         SceneManager.LoadScene(sceneName);
     }
 }
