@@ -1,0 +1,1654 @@
+fileFormatVersion: 2
+guid: 058239dd5ccba494a9f4299a0eb7c318
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 358
+        width: 641
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ffcb4b3aaa5ce4ab9993a425580b92
+      internalID: -518804227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 980
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4461dbfb2287d24a80d3f7d0300222c
+      internalID: 1294498599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 904
+        width: 45
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e6cd93311d9e14186b719418bac5d6
+      internalID: -914920273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 924
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0d601a0b60f584e88b776badc00b74
+      internalID: -1669794310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 938
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1989df5b018b694a956dca77a5143ec
+      internalID: -1117085087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 900
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4de8ed5f4c19c43a00eb5ddaafd88c
+      internalID: 2040492490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 923
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e070a43882287ff4095f9f418876b323
+      internalID: -1139553002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 946
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1729c2f3550c0994b9e2ce633d2ada47
+      internalID: -1777857052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 898
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0026045eaf95c47b1b8aa218b1f7c9
+      internalID: 22430601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 928
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4293b24341d0ad5498598569b30578cf
+      internalID: -154388466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 942
+        width: 63
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe66bc4a5f702d54db89e5854a750f22
+      internalID: 1219743651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 913
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78ff1b45c58dcc4a914345a00a5bfc5
+      internalID: -637178567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 870
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615f746439298cf42874c6c739c4efd7
+      internalID: 1316826684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 974
+        width: 87
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bfbfe0c7177b74c8b0d958f350f072
+      internalID: -998633353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 944
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4767672c4e986c44b1d8a68112130af
+      internalID: 462045030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 912
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a1c885a268dd2419f2dfdcad5719a9
+      internalID: -1786862922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 898
+        width: 215
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eec97ca1b4d7c429fffcdc6c5192a4
+      internalID: 597627632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 926
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3411a487d72bbc4097008b97331f0c1
+      internalID: -1043523815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 913
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad77a383f6d21724983a8072e3b9d15e
+      internalID: 1437089070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 897
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3894f849ffe631f41972d67ef6ac4eee
+      internalID: 1819788218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 470
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d2655b8b123464dac1934da20dc69c
+      internalID: 1753301106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 392
+        width: 709
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3089910ceabe04ab90fc282935dd38
+      internalID: -443604708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 535
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f41ab1ad116cd4fb9d508a40f369b7
+      internalID: 1770414194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 560
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c75c9b426504941bcc543976aca457
+      internalID: -1884471804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 561
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5eac3c8d674da489febdfd4f8b3f5b
+      internalID: -933773445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 610
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1387781aaee5e9342b6d25e6a1385b1a
+      internalID: 1885473759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 528
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2081fb5b904ee409cc1a78d114da7c
+      internalID: -550220728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 564
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8850f847e9354419da7c956df47e5e
+      internalID: 2018822432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 536
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c41bc1b80eb9c43bef217bab0f85fa
+      internalID: -2015585116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 470
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053d3e7c49fdc3c4cad68bba5ac65399
+      internalID: 575597213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 753
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f07d0f6a7e9a546a247a1893daaa90
+      internalID: 286278684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 46
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987777714b5843244bba01d79369d8b3
+      internalID: 1173141020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 50
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b047244e54db1af45a2bf83e05288c8f
+      internalID: -1593530901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 50
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cd4b2d6b0e58e4b88b3eab204d5a16
+      internalID: -614961897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fdd2e24fcd51d449b7d02652d1047f
+      internalID: -916021899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 40
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7ecc816ba67a8478956c7d77123422
+      internalID: 1139196525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 81
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a23f793cf80c241a4e5c44002d7340
+      internalID: -276356721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 34
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfbfbf02b056764dbc88282c5c29e40
+      internalID: -129662352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 76
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4c9da67b19fbb48abd8ee5d81769c3
+      internalID: -363015401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 54
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc67250f4df6546489ae98890ce251b5
+      internalID: -1987282213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 50
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650a133927eb163418269d0f763cbad7
+      internalID: 878391678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 46
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32204bf9f640105449df41fdf3174ded
+      internalID: -166881837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 68
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94c534c7cb9de54f95ddcd6ac31a9c6
+      internalID: 651647153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 61
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ee270846752f94cbdc331bd85ad11b
+      internalID: -52203366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 54
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11872b9c487827045ba8bb7c7aec9c27
+      internalID: 957814743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 70
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429eaaba6586185448f2aad8326aab15
+      internalID: -2003018075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 32
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e9e69487056b5499a2890c36cb8c94
+      internalID: 496158413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 56
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b8b83325344e14293465d9e174569b
+      internalID: -1975557572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 130
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d55c20c031a60419da759a3403a06f
+      internalID: 1637855113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 50
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd45bfd07eb7f740b60f75cdac2d2e8
+      internalID: 508686210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 64
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbec53cef963c664aa62674d9ff3feff
+      internalID: -1374651929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 64
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eb332d65b9bf94cbcd68f86b301474
+      internalID: 1809529977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 0
+        width: 716
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9560cf83fb894874ebb79a43478381bd
+      internalID: 1420501800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 96
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e745498c313d94cbdcad8f037505c6
+      internalID: -1002574666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3880cc93f6cc9cf4f85b86aa7b6c1dfb
+      internalID: -1337990708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 34
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516ca0581bebcc4439182b505c861b28
+      internalID: 2031036370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 30
+        width: 159
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5359dd35bc2fb4f4cbdbc2e11929c2ed
+      internalID: 1224956967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 22
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a704295b02292f4e885449793ff4c90
+      internalID: -389070226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 109
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727affc06a2ac7e4395e01dec4d8c8b0
+      internalID: -8956306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 48
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1f1f4ac7ee1574c9bb596be1c89807
+      internalID: 457293380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 28
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d36276760faec41aa9d5767793613f
+      internalID: 594337945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a91ecfaa0851a34ebda3de8a19f3fa1
+      internalID: 662702594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 95
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b6842f759af1346ad43454691186b1
+      internalID: -757017782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 96
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a82d89f027fbc84b87188067ead8348
+      internalID: -279975913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 110
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4a1c7d70673054b924ab4e15439a9b
+      internalID: -1153310892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 10
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a38888dec18daa428733f37f5b825cb
+      internalID: -850237873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 32
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e262301ad208484588f4e02f4fce6cb
+      internalID: -782190143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 27
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47be0289f571aa1469f31a5018b48cb4
+      internalID: -662380460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 73
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3539cd75037231d4f97a2ac25b7a2920
+      internalID: 1944590913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon OTP Security UI Asset Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 48
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0aa69e55192104c81716ac7311863b
+      internalID: -1240267544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cartoon OTP Security UI Asset Sheet_0: -518804227
+      Cartoon OTP Security UI Asset Sheet_1: 1294498599
+      Cartoon OTP Security UI Asset Sheet_10: 1219743651
+      Cartoon OTP Security UI Asset Sheet_11: -637178567
+      Cartoon OTP Security UI Asset Sheet_12: 1316826684
+      Cartoon OTP Security UI Asset Sheet_13: -998633353
+      Cartoon OTP Security UI Asset Sheet_14: 462045030
+      Cartoon OTP Security UI Asset Sheet_15: -1786862922
+      Cartoon OTP Security UI Asset Sheet_16: 597627632
+      Cartoon OTP Security UI Asset Sheet_17: -1043523815
+      Cartoon OTP Security UI Asset Sheet_18: 1437089070
+      Cartoon OTP Security UI Asset Sheet_19: 1819788218
+      Cartoon OTP Security UI Asset Sheet_2: -914920273
+      Cartoon OTP Security UI Asset Sheet_20: 1753301106
+      Cartoon OTP Security UI Asset Sheet_21: -443604708
+      Cartoon OTP Security UI Asset Sheet_22: 1770414194
+      Cartoon OTP Security UI Asset Sheet_23: -1884471804
+      Cartoon OTP Security UI Asset Sheet_24: -933773445
+      Cartoon OTP Security UI Asset Sheet_25: 1885473759
+      Cartoon OTP Security UI Asset Sheet_26: -550220728
+      Cartoon OTP Security UI Asset Sheet_27: 2018822432
+      Cartoon OTP Security UI Asset Sheet_28: -2015585116
+      Cartoon OTP Security UI Asset Sheet_29: 575597213
+      Cartoon OTP Security UI Asset Sheet_3: -1669794310
+      Cartoon OTP Security UI Asset Sheet_30: 286278684
+      Cartoon OTP Security UI Asset Sheet_31: 1173141020
+      Cartoon OTP Security UI Asset Sheet_32: -1593530901
+      Cartoon OTP Security UI Asset Sheet_33: -614961897
+      Cartoon OTP Security UI Asset Sheet_34: -916021899
+      Cartoon OTP Security UI Asset Sheet_35: 1139196525
+      Cartoon OTP Security UI Asset Sheet_36: -276356721
+      Cartoon OTP Security UI Asset Sheet_37: -129662352
+      Cartoon OTP Security UI Asset Sheet_38: -363015401
+      Cartoon OTP Security UI Asset Sheet_39: -1987282213
+      Cartoon OTP Security UI Asset Sheet_4: -1117085087
+      Cartoon OTP Security UI Asset Sheet_40: 878391678
+      Cartoon OTP Security UI Asset Sheet_41: -166881837
+      Cartoon OTP Security UI Asset Sheet_42: 651647153
+      Cartoon OTP Security UI Asset Sheet_43: -52203366
+      Cartoon OTP Security UI Asset Sheet_44: 957814743
+      Cartoon OTP Security UI Asset Sheet_45: -2003018075
+      Cartoon OTP Security UI Asset Sheet_46: 496158413
+      Cartoon OTP Security UI Asset Sheet_47: -1975557572
+      Cartoon OTP Security UI Asset Sheet_48: 1637855113
+      Cartoon OTP Security UI Asset Sheet_49: 508686210
+      Cartoon OTP Security UI Asset Sheet_5: 2040492490
+      Cartoon OTP Security UI Asset Sheet_50: -1374651929
+      Cartoon OTP Security UI Asset Sheet_51: 1809529977
+      Cartoon OTP Security UI Asset Sheet_52: 1420501800
+      Cartoon OTP Security UI Asset Sheet_53: -1002574666
+      Cartoon OTP Security UI Asset Sheet_54: -1337990708
+      Cartoon OTP Security UI Asset Sheet_55: 2031036370
+      Cartoon OTP Security UI Asset Sheet_56: 1224956967
+      Cartoon OTP Security UI Asset Sheet_57: -389070226
+      Cartoon OTP Security UI Asset Sheet_58: -8956306
+      Cartoon OTP Security UI Asset Sheet_59: 457293380
+      Cartoon OTP Security UI Asset Sheet_6: -1139553002
+      Cartoon OTP Security UI Asset Sheet_60: 594337945
+      Cartoon OTP Security UI Asset Sheet_61: 662702594
+      Cartoon OTP Security UI Asset Sheet_62: -757017782
+      Cartoon OTP Security UI Asset Sheet_63: -279975913
+      Cartoon OTP Security UI Asset Sheet_64: -1153310892
+      Cartoon OTP Security UI Asset Sheet_65: -850237873
+      Cartoon OTP Security UI Asset Sheet_66: -782190143
+      Cartoon OTP Security UI Asset Sheet_67: -662380460
+      Cartoon OTP Security UI Asset Sheet_68: 1944590913
+      Cartoon OTP Security UI Asset Sheet_69: -1240267544
+      Cartoon OTP Security UI Asset Sheet_7: -1777857052
+      Cartoon OTP Security UI Asset Sheet_8: 22430601
+      Cartoon OTP Security UI Asset Sheet_9: -154388466
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1082 @@
+fileFormatVersion: 2
+guid: 107cd750088222a459d5022bc0687269
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 495
+        width: 1303
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2925db1fb3aec4da6f782e99333a9e
+      internalID: 986981259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_1
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 879
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7535a24bde386b949897f08f33d70fb5
+      internalID: -1537904728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_2
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 724
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c48a763a3a1cb4696f3acd94ef36bb
+      internalID: -264191654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 512
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f36544916d0f44c8c1c4ba99a53224
+      internalID: 1226199347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_4
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 494
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bf259fca67cf44bb66ca191d08fdcc
+      internalID: -1099151728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_5
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 501
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0036f12a3517a948a9732e8e3c970a5
+      internalID: 1911053335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_6
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 488
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bf6bf96f4942b4ba117ec1adeceb7b
+      internalID: -277732567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_7
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 495
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7441cfe278ec64081d281660bc87ea
+      internalID: 1756567653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_8
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 490
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0033d0aba583ca4ea5d963ba14eaa38
+      internalID: -1107899547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_9
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 480
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7be0fd5ebe54774a811395580c6ddf9
+      internalID: 1479037907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_10
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 462
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44905e10f46be6f46bc2c539c58400c9
+      internalID: -1192414487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_11
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 427
+        width: 87
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6697d20f34bbdd448193c5f3eedaf3c
+      internalID: -1200920838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_12
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 461
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dc1f684f198cd46a278a33d187f13a
+      internalID: -758303591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_13
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 441
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa05cb1c2ec3eec41b66d5276a054f91
+      internalID: -344807382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_14
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 430
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb15b137f8af874890d198163e92c4b
+      internalID: -1249234139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_15
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 462
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec30ed25a6531e4384cc5e6cb055506
+      internalID: -520410662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_16
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 426
+        width: 101
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c9d456077a794448a9622e28576751
+      internalID: 206311418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_17
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 450
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e49d53d0225ab24f8709e27568b7159
+      internalID: 1334362268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_18
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 446
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1946264de41e9be4aa85f3ad62338dc1
+      internalID: -521732321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_19
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 430
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bdf9d10bac953499870c93a1aa7523
+      internalID: -1278535273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_20
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 448
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889714c617916354d89d6dc479b2d1fb
+      internalID: -1008081985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_21
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 448
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc51c3264d76014a88aa2f8a46cf814
+      internalID: -1214845518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 387
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c4fc2a0dd41824dbfe3984c1963f35
+      internalID: 2043713147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_23
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 128
+        width: 989
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d58c93c72103946ae4367f379556d8
+      internalID: -1627045822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_24
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 336
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f190fd02c9b474abaad79a01dfba78
+      internalID: -1473384171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_25
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 351
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97101b5d13a948948a1740f8305d54eb
+      internalID: -86835393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 320
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98be5d4bff5a06c43bc4222d6e5c1aa1
+      internalID: -2062680165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_27
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 316
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c090a4c0ab56d43a938914a2711794
+      internalID: 2129743333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_28
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 294
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631f6fabe1957244b92bf612ac9ec85f
+      internalID: 59333941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_29
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 266
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0186fdf878a6a6344be07a77bd87506b
+      internalID: -989619832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_30
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 146
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaf83f5117d1234390ca10943df6a08
+      internalID: 1675809793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_31
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 152
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8d332e5585dfd48b74ac8c7c31d2ae
+      internalID: -954267452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_32
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 149
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80357d8bd64354e45a151321d20a04bb
+      internalID: -1405345223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_33
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 144
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a69bd2b8576dd4fa77228c7bd13d30
+      internalID: -959493985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_34
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 144
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34107c4f71b02214c86c1e01f7b0b97e
+      internalID: -2014290957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_35
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 152
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81edefe276406c14da5814e86ec98194
+      internalID: -1576453120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_36
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 129
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d321cb45c8bb1e42b2a6284e7ae927c
+      internalID: -244815407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_37
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 128
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a25009fb5a15e44fa7943350142110d
+      internalID: 37589261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_38
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 112
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a553ec2492900044ca033219633fa340
+      internalID: 39979393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_39
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 102
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c17f82cb2d391419a1ec59e59423b0
+      internalID: 402070135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_40
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 96
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babd56f52c1ac8047901e0be765e5652
+      internalID: 1145305057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_41
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 92
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe155baf5ee93c49ba34e9e14f9744d
+      internalID: -549131314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_42
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 72
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738fca57a0200054d8b9abd8080846bd
+      internalID: -367538240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suspicious Call Game UI Elements_43
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 32
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e7f5b4d08da5a45a0df21415349b95
+      internalID: 1177891597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Suspicious Call Game UI Elements_0: 986981259
+      Suspicious Call Game UI Elements_1: -1537904728
+      Suspicious Call Game UI Elements_10: -1192414487
+      Suspicious Call Game UI Elements_11: -1200920838
+      Suspicious Call Game UI Elements_12: -758303591
+      Suspicious Call Game UI Elements_13: -344807382
+      Suspicious Call Game UI Elements_14: -1249234139
+      Suspicious Call Game UI Elements_15: -520410662
+      Suspicious Call Game UI Elements_16: 206311418
+      Suspicious Call Game UI Elements_17: 1334362268
+      Suspicious Call Game UI Elements_18: -521732321
+      Suspicious Call Game UI Elements_19: -1278535273
+      Suspicious Call Game UI Elements_2: -264191654
+      Suspicious Call Game UI Elements_20: -1008081985
+      Suspicious Call Game UI Elements_21: -1214845518
+      Suspicious Call Game UI Elements_22: 2043713147
+      Suspicious Call Game UI Elements_23: -1627045822
+      Suspicious Call Game UI Elements_24: -1473384171
+      Suspicious Call Game UI Elements_25: -86835393
+      Suspicious Call Game UI Elements_26: -2062680165
+      Suspicious Call Game UI Elements_27: 2129743333
+      Suspicious Call Game UI Elements_28: 59333941
+      Suspicious Call Game UI Elements_29: -989619832
+      Suspicious Call Game UI Elements_3: 1226199347
+      Suspicious Call Game UI Elements_30: 1675809793
+      Suspicious Call Game UI Elements_31: -954267452
+      Suspicious Call Game UI Elements_32: -1405345223
+      Suspicious Call Game UI Elements_33: -959493985
+      Suspicious Call Game UI Elements_34: -2014290957
+      Suspicious Call Game UI Elements_35: -1576453120
+      Suspicious Call Game UI Elements_36: -244815407
+      Suspicious Call Game UI Elements_37: 37589261
+      Suspicious Call Game UI Elements_38: 39979393
+      Suspicious Call Game UI Elements_39: 402070135
+      Suspicious Call Game UI Elements_4: -1099151728
+      Suspicious Call Game UI Elements_40: 1145305057
+      Suspicious Call Game UI Elements_41: -549131314
+      Suspicious Call Game UI Elements_42: -367538240
+      Suspicious Call Game UI Elements_43: 1177891597
+      Suspicious Call Game UI Elements_5: 1911053335
+      Suspicious Call Game UI Elements_6: -277732567
+      Suspicious Call Game UI Elements_7: 1756567653
+      Suspicious Call Game UI Elements_8: -1107899547
+      Suspicious Call Game UI Elements_9: 1479037907
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

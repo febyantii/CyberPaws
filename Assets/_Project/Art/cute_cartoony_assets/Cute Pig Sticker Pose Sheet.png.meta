@@ -1,0 +1,1324 @@
+fileFormatVersion: 2
+guid: 5f9800c043223184d8994a61b3a4b26a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 668
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836e506fce354914d8ebc8c4cc750441
+      internalID: -678963367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 913
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4f0a85941c7cd498e763dd349983d4
+      internalID: 1537191381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 726
+        width: 85
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b26d87639bf0cd4480d8e213b8a53f3
+      internalID: -1596446141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 880
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9ec68ea36c5274e85bef9eecb9c770
+      internalID: -284920174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 545
+        width: 485
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfae42ecf4a9f834986aeb462295b471
+      internalID: -137813689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 704
+        width: 143
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a99b179fca80945b45adf8c7b43437
+      internalID: 1278903458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 826
+        width: 33
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17df64136697af740ae5d31707691743
+      internalID: -170509757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 758
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e57b63d26c11b469fed387df3e1477
+      internalID: 987265168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 752
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f44ec9c98e77e4a9712f25e15225a3
+      internalID: -1260372655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 756
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0becfc54a8423084593ab202d1427a20
+      internalID: -755735834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 719
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2315452c07a21340bc8372357d2d5c8
+      internalID: -388141093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 726
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25082a7e14ba4fd4ab36a8465da0905e
+      internalID: 895192836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 727
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056501ee6af401442a9432c48bd7e410
+      internalID: 1452578388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 706
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6254d3c62d5be74d81a139283593abe
+      internalID: -417922847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 666
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0757cc43b24f7524cbbdda62c0c5fed4
+      internalID: -239924981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 623
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b91cba5deb05734e9251ccf3b93e05c
+      internalID: 1008928264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 622
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b990220b84ae6b24dabf13dfe27a2243
+      internalID: 653075808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 530
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94918254c4faa3b47ae22542b0a70242
+      internalID: 1462772497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 592
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88e6fa8d784af04b95f7e6c32c9600d
+      internalID: 1366169063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 599
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17bb1f1a54f649469d55407e791838f
+      internalID: 351501836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 566
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa76d53ef1761674eb172d4be58661f9
+      internalID: -242161900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 591
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ea48665a0ead44acc4e9cc070c343
+      internalID: 1152018963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 579
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae367870114047408d85dc5f4353367
+      internalID: 1732281899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 598
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89906b71dda15e041ad49260e10a2870
+      internalID: 24512286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 574
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa5068fcabaf704d910784635eeebbc
+      internalID: -1112105209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 594
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807ef96a99dceb448aa091e2c8500be5
+      internalID: 1082194973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 574
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c437791a85a2408105ca8f95189b4
+      internalID: 1832535281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 544
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65de8886cc41e0a4c88e6d99985dd415
+      internalID: -507624153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 560
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434f6617185ac1a48a88ae17ef28b043
+      internalID: 150486859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 559
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33dd9d5f2cab544a9eca0aea7f9280a
+      internalID: -1489663549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 560
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b16801c0f7f13244a815353fa22eb5e
+      internalID: 946893563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 544
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98688558e658ecb42a2264102b175589
+      internalID: 989462123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 521
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f63fb9e4184da649910924d3013decc
+      internalID: -725025761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 497
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637e81e9ca5303e4ca973ab58eb00cdf
+      internalID: -1183254426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 504
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dc3ee78e101fd4ea02c2e6be401d85
+      internalID: -282280732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 484
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b278c74e0811943b72194cf0e3959f
+      internalID: -278100594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 495
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7195eb4a8eb4fbe4d8ee4c795bc18992
+      internalID: -1977567017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 507
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57e7c8d8960e044e8049d9025ab5248
+      internalID: 1723571971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 444
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566eb3354b968ab4499d58049a297d11
+      internalID: -796508312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 482
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bd9d3e2e1d56846b9e1eb10add2749
+      internalID: 1491425858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 472
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4211ef6393dc6d42b5e19421f9f444d
+      internalID: -1554468367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 482
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588f99427e426b54f8df7a243627d74f
+      internalID: -1802520434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 21
+        width: 440
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8cf1f05552a094991afd4a618b4a5e
+      internalID: 1673861591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 20
+        width: 390
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ffe1f69cba6834ca2db3aef0cbcaee
+      internalID: 1877634262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 20
+        width: 567
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15873565b7edeec49b723b60b66613b1
+      internalID: -237649472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 272
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5343dae75032a4e897083e22ea899e
+      internalID: 140787983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 234
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3493748e39eef449f0c362ef479088
+      internalID: 967472471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 216
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062b19ca0580dcd4faa65956335afaa5
+      internalID: 616505952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 28
+        width: 45
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a27e1a5d473de4b93699506db8c07c
+      internalID: -176680674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 144
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707218aac9fbc4e4c9e38e0f9d45143f
+      internalID: 1177076610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 70
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c540c4b5e5af7704eb6e462ef2173255
+      internalID: 521403979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 60
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2673a97086673449ae42b27c6c17d5
+      internalID: 1483611212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452280c7e47b3d34c9b6cf79b39fbc85
+      internalID: 145942205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 64
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2244f21bea80a3e479985235e80947e7
+      internalID: -634998407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Pig Sticker Pose Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 47
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7293e23722343c4cb634b6897c9f9c8
+      internalID: 182729904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cute Pig Sticker Pose Sheet_0: -678963367
+      Cute Pig Sticker Pose Sheet_1: 1537191381
+      Cute Pig Sticker Pose Sheet_10: -388141093
+      Cute Pig Sticker Pose Sheet_11: 895192836
+      Cute Pig Sticker Pose Sheet_12: 1452578388
+      Cute Pig Sticker Pose Sheet_13: -417922847
+      Cute Pig Sticker Pose Sheet_14: -239924981
+      Cute Pig Sticker Pose Sheet_15: 1008928264
+      Cute Pig Sticker Pose Sheet_16: 653075808
+      Cute Pig Sticker Pose Sheet_17: 1462772497
+      Cute Pig Sticker Pose Sheet_18: 1366169063
+      Cute Pig Sticker Pose Sheet_19: 351501836
+      Cute Pig Sticker Pose Sheet_2: -1596446141
+      Cute Pig Sticker Pose Sheet_20: -242161900
+      Cute Pig Sticker Pose Sheet_21: 1152018963
+      Cute Pig Sticker Pose Sheet_22: 1732281899
+      Cute Pig Sticker Pose Sheet_23: 24512286
+      Cute Pig Sticker Pose Sheet_24: -1112105209
+      Cute Pig Sticker Pose Sheet_25: 1082194973
+      Cute Pig Sticker Pose Sheet_26: 1832535281
+      Cute Pig Sticker Pose Sheet_27: -507624153
+      Cute Pig Sticker Pose Sheet_28: 150486859
+      Cute Pig Sticker Pose Sheet_29: -1489663549
+      Cute Pig Sticker Pose Sheet_3: -284920174
+      Cute Pig Sticker Pose Sheet_30: 946893563
+      Cute Pig Sticker Pose Sheet_31: 989462123
+      Cute Pig Sticker Pose Sheet_32: -725025761
+      Cute Pig Sticker Pose Sheet_33: -1183254426
+      Cute Pig Sticker Pose Sheet_34: -282280732
+      Cute Pig Sticker Pose Sheet_35: -278100594
+      Cute Pig Sticker Pose Sheet_36: -1977567017
+      Cute Pig Sticker Pose Sheet_37: 1723571971
+      Cute Pig Sticker Pose Sheet_38: -796508312
+      Cute Pig Sticker Pose Sheet_39: 1491425858
+      Cute Pig Sticker Pose Sheet_4: -137813689
+      Cute Pig Sticker Pose Sheet_40: -1554468367
+      Cute Pig Sticker Pose Sheet_41: -1802520434
+      Cute Pig Sticker Pose Sheet_42: 1673861591
+      Cute Pig Sticker Pose Sheet_43: 1877634262
+      Cute Pig Sticker Pose Sheet_44: -237649472
+      Cute Pig Sticker Pose Sheet_45: 140787983
+      Cute Pig Sticker Pose Sheet_46: 967472471
+      Cute Pig Sticker Pose Sheet_47: 616505952
+      Cute Pig Sticker Pose Sheet_48: -176680674
+      Cute Pig Sticker Pose Sheet_49: 1177076610
+      Cute Pig Sticker Pose Sheet_5: 1278903458
+      Cute Pig Sticker Pose Sheet_50: 521403979
+      Cute Pig Sticker Pose Sheet_51: 1483611212
+      Cute Pig Sticker Pose Sheet_52: 145942205
+      Cute Pig Sticker Pose Sheet_53: -634998407
+      Cute Pig Sticker Pose Sheet_54: 182729904
+      Cute Pig Sticker Pose Sheet_6: -170509757
+      Cute Pig Sticker Pose Sheet_7: 987265168
+      Cute Pig Sticker Pose Sheet_8: -1260372655
+      Cute Pig Sticker Pose Sheet_9: -755735834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
