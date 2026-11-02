@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 5cc7b98fdc10e2f4583d05a9c9c0b627
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PINO_PENGUIN_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 524
+        width: 438
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb124fc6eff5ee43b51e4470c3a3f34
+      internalID: 1512676383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_1
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 529
+        width: 363
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14345f720d9a2f478d08678e981e8d1
+      internalID: 1736136632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 898
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fd817bb56075548b0c0305e83ede8d
+      internalID: 1353962790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 952
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f9d5ba33fb0f942be3e3beb36f21c0
+      internalID: 2032422018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_4
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 530
+        width: 357
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9400b56647db74d88d443691fed93e
+      internalID: 1658371872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_5
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 920
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd4dc637caabbf4d9ab2a3380afc578
+      internalID: -2106297051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_6
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 919
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ea910711aa7bf4c8fc6f5b046734f7
+      internalID: 647118993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_7
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 695
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aac49a628b4ad4c8cc4f8603a87506
+      internalID: 1002214520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 578
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a210ea267a94a4f409efeec303aa5051
+      internalID: 875169069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 574
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df6120dac14eeb4c9fa8c09d16f8393
+      internalID: -141816001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_10
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 549
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48deb6f937ad5ab48be9d1d2f564b455
+      internalID: -2113450728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 534
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3494571539988479e8fe09480dfabc
+      internalID: -402921828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_12
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 530
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bd8f349793d76409a86fb068fabc1a
+      internalID: 1098216161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 22
+        width: 417
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d931c1bfd2fcb6942bb428c4c10e88c7
+      internalID: 149579106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_14
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 456
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d239be2b5da73a4898dee1e9f7d44f4
+      internalID: -534260840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_15
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 32
+        width: 347
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac28c2fa0401d8b48bfc85e1fc199bde
+      internalID: 1553485301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_16
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 450
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e39a0ac793a4e142b54c9bfc4cffc4e
+      internalID: 1560236086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_17
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 20
+        width: 435
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc498f1780a190e44a285429cc14b013
+      internalID: -2008582429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_18
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 439
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b6ad3c04451e648abf7e10aa830786
+      internalID: -1767534279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_19
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 428
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7979170b7832fbc4e8ca9a788d6c94bc
+      internalID: 1915791186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_20
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 376
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c41e5c009f7b84994fd252526a01b3
+      internalID: 233970564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_21
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 406
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9472d43598196444bdc55ea0c0ee3bd
+      internalID: 888147869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_22
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 410
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7947b11767d8b644914d6d17606b656
+      internalID: -1095342174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_23
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 352
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f2ea6a9dceda46b813ac437d2e13f
+      internalID: -561554405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_24
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 366
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf498cd47309a543b6a12fda49e5802
+      internalID: -451382091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_25
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 320
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8187eb92c7074174aba7a24c682842d8
+      internalID: 1986414064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_26
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 240
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382af9445d6f68e419786a0ba644abbe
+      internalID: 324291829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_27
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 254
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de79e70f743f11419b153e57f2fd340
+      internalID: 629450470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_28
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 222
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619ea70f54d86bd498467b426a499680
+      internalID: -1373007048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_29
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 160
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdd91bc4dd286c4992bc10402db2198
+      internalID: -1106650636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_30
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 132
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71100b05b7701f24abca32d90df620dc
+      internalID: 1109230066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_31
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 32
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f7238c14677ca41922d4d99c2eb009
+      internalID: 1470976656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PINO_PENGUIN_32
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 17
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cedfc1cc42f8184a854a425245d9d09
+      internalID: 173751622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PINO_PENGUIN_0: 1512676383
+      PINO_PENGUIN_1: 1736136632
+      PINO_PENGUIN_10: -2113450728
+      PINO_PENGUIN_11: -402921828
+      PINO_PENGUIN_12: 1098216161
+      PINO_PENGUIN_13: 149579106
+      PINO_PENGUIN_14: -534260840
+      PINO_PENGUIN_15: 1553485301
+      PINO_PENGUIN_16: 1560236086
+      PINO_PENGUIN_17: -2008582429
+      PINO_PENGUIN_18: -1767534279
+      PINO_PENGUIN_19: 1915791186
+      PINO_PENGUIN_2: 1353962790
+      PINO_PENGUIN_20: 233970564
+      PINO_PENGUIN_21: 888147869
+      PINO_PENGUIN_22: -1095342174
+      PINO_PENGUIN_23: -561554405
+      PINO_PENGUIN_24: -451382091
+      PINO_PENGUIN_25: 1986414064
+      PINO_PENGUIN_26: 324291829
+      PINO_PENGUIN_27: 629450470
+      PINO_PENGUIN_28: -1373007048
+      PINO_PENGUIN_29: -1106650636
+      PINO_PENGUIN_3: 2032422018
+      PINO_PENGUIN_30: 1109230066
+      PINO_PENGUIN_31: 1470976656
+      PINO_PENGUIN_32: 173751622
+      PINO_PENGUIN_4: 1658371872
+      PINO_PENGUIN_5: -2106297051
+      PINO_PENGUIN_6: 647118993
+      PINO_PENGUIN_7: 1002214520
+      PINO_PENGUIN_8: 875169069
+      PINO_PENGUIN_9: -141816001
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
