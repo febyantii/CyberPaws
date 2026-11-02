@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using TMPro;
 
@@ -9,6 +10,7 @@ public class GameTimer : MonoBehaviour
     [SerializeField] private float startingTime = 120f;
 
     [Header("UI")]
+    [SerializeField] private GameObject failedPanel;
     [SerializeField] private TMP_Text timerText;
 
     private float currentTime;
@@ -34,6 +36,12 @@ public class GameTimer : MonoBehaviour
 
     private void Start()
     {
+        // Sembunyikan Failed Panel saat permainan dimulai
+        if (failedPanel != null)
+        {
+            failedPanel.SetActive(false);
+        }
+
         StartTimer();
     }
 
@@ -50,7 +58,6 @@ public class GameTimer : MonoBehaviour
             timerRunning = false;
 
             UpdateTimerUI();
-
             TimeIsUp();
             return;
         }
@@ -81,6 +88,12 @@ public class GameTimer : MonoBehaviour
 
     public void ResetTimer()
     {
+        // Sembunyikan Failed Panel saat timer di-reset
+        if (failedPanel != null)
+        {
+            failedPanel.SetActive(false);
+        }
+
         currentTime = startingTime;
         timerRunning = true;
 
@@ -102,7 +115,17 @@ public class GameTimer : MonoBehaviour
     {
         Debug.Log("GAME TIMER: TIME'S UP!");
 
-        // Nanti kita sambungkan ke Game Over.
-        // Untuk sekarang hanya menghentikan timer.
+        timerRunning = false;
+
+        if (failedPanel != null)
+        {
+            failedPanel.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning(
+                "GameTimer: Failed Panel belum dihubungkan di Inspector!"
+            );
+        }
     }
 }

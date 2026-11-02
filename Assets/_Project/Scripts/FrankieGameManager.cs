@@ -128,6 +128,19 @@ public class FrankieGameManager : MonoBehaviour
         Debug.Log("FRANKIE → CONGRATULATION!");
     }
 
+    
+    // =====================================================
+    // RESET FRANKIE GAME
+    // =====================================================
+
+    public void ResetFrankieGame()
+    {
+        SetupFrankie();
+
+        Debug.Log("Frankie game reset to initial state.");
+    }
+
+
 
     // =====================================================
     // CONGRATULATION → PINDAH KE CLOSING SCENE
