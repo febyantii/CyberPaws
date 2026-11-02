@@ -208,6 +208,45 @@ public class FrankieGameDetailManager : MonoBehaviour
         answerSeePatternButton.interactable =
             patternViewsUsed < maxPatternViews;
     }
+    
+    // =====================================================
+    // RESET FRANKIE GAME DETAIL
+    // =====================================================
+
+    public void ResetFrankieGameDetail()
+    {
+        // Hentikan countdown pola jika masih berjalan
+        if (patternCoroutine != null)
+        {
+            StopCoroutine(patternCoroutine);
+            patternCoroutine = null;
+        }
+
+        // Reset status dan jumlah kesempatan
+        isViewingPattern = false;
+        patternViewsUsed = 0;
+
+        // Kembalikan panel ke kondisi awal
+        if (securityPanel != null)
+            securityPanel.SetActive(true);
+
+        if (seePatternPanel != null)
+            seePatternPanel.SetActive(false);
+
+        if (answerPanel != null)
+            answerPanel.SetActive(false);
+
+        // Reset teks timer
+        if (timerText != null)
+            timerText.text = Mathf.CeilToInt(patternViewDuration).ToString();
+
+        // Reset penghitung kesempatan
+        UpdateViewCounter();
+        UpdateSeePatternButton();
+
+        Debug.Log("Frankie Game Detail reset.");
+    }
+
 
 
     // =====================================================
@@ -280,11 +319,28 @@ public class FrankieGameDetailManager : MonoBehaviour
     // WRONG
     // =====================================================
 
+    
     private void WrongAnswer()
     {
         Debug.Log("FRANKIE: JAWABAN SALAH!");
 
+        // Reset kesempatan melihat pola
+        if (patternCoroutine != null)
+        {
+            StopCoroutine(patternCoroutine);
+            patternCoroutine = null;
+        }
+
+        isViewingPattern = false;
+        patternViewsUsed = 0;
+
+        // Reset penghitung kesempatan
+        UpdateViewCounter();
+        UpdateSeePatternButton();
+
+        // Kembali ke Try Again Panel
         if (frankieGameManager != null)
             frankieGameManager.ShowTryAgain();
     }
+
 }
