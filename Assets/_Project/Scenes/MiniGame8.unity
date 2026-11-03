@@ -2454,7 +2454,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1223958471, guid: fead5d9064c8e9b4abe22d8b69484a03, type: 3}
+  m_Sprite: {fileID: -754132312, guid: 6ed1675143a968844b659e4c41355bd8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2566,10 +2566,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 376903773}
   - {fileID: 1330449878}
-  - {fileID: 182473299}
   - {fileID: 218303125}
+  - {fileID: 376903773}
+  - {fileID: 182473299}
   - {fileID: 51439678}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3072,11 +3072,11 @@ RectTransform:
   - {fileID: 746444896}
   - {fileID: 1554981050}
   - {fileID: 1523028344}
+  - {fileID: 2008171284}
   - {fileID: 1004086028}
   - {fileID: 1378614581}
   - {fileID: 10874850}
   - {fileID: 68774668}
-  - {fileID: 2008171284}
   m_Father: {fileID: 144265902}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6236,7 +6236,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391157935}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7181,7 +7181,7 @@ RectTransform:
   m_GameObject: {fileID: 480698684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6, y: 8, z: 1.5}
+  m_LocalScale: {x: 6, y: 7, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1972663904}
@@ -7211,7 +7211,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1532207199, guid: fead5d9064c8e9b4abe22d8b69484a03, type: 3}
+  m_Sprite: {fileID: 153180373, guid: 6ed1675143a968844b659e4c41355bd8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8957,7 +8957,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1785285712, guid: b2d267aab1308ab418fe27112f6aac9f, type: 3}
+  m_Sprite: {fileID: 793964864, guid: d00e07fdfef342e498c92c87aa8fb072, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10896,20 +10896,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Yay! Thank you so much!
 
-    
 
-    I almost fell for those fake vouchers
-    because the discounts looked so tempting.
+    I almost fell for those fake vouchers because
+    the discounts looked so tempting.
 
-    
 
-    Now I know that I should
-    always check the details before trusting an online promotion.
+    Now I know that I should always check
+    the details before trusting an online promotion.
 
-    
 
-    You''re
-    a lifesaver!"'
+    You''re a lifesaver!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -11682,7 +11678,7 @@ GameObject:
   - component: {fileID: 899298904}
   - component: {fileID: 899298903}
   m_Layer: 5
-  m_Name: PaulaHappy
+  m_Name: PaulaSad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11697,7 +11693,7 @@ RectTransform:
   m_GameObject: {fileID: 899298901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6, y: 10.5, z: 1.5}
+  m_LocalScale: {x: 6, y: 8, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1584583379}
@@ -11727,7 +11723,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b61e7c552f3339048ba7463409dc2668, type: 3}
+  m_Sprite: {fileID: 959641947, guid: d00e07fdfef342e498c92c87aa8fb072, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12088,15 +12084,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Oh no... I thought those vouchers were real.
 
-    
 
-    I should have
-    checked the details more carefully before trusting those amazing offers.
 
-    
+    I should have checked
+    the details more carefully before trusting those amazing offers.
 
-    I
-    guess I still have a lot to learn about online shopping safety. Can we try again?"'
+
+
+    I guess
+    I still have a lot to learn about online shopping safety. Can we try again?"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -16204,7 +16200,7 @@ RectTransform:
   m_GameObject: {fileID: 1359251358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6, y: 10.5, z: 1.5}
+  m_LocalScale: {x: 5.6, y: 8, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 68774668}
@@ -16234,7 +16230,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b61e7c552f3339048ba7463409dc2668, type: 3}
+  m_Sprite: {fileID: 113086790, guid: d00e07fdfef342e498c92c87aa8fb072, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18000,17 +17996,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Hey! Can you help me?
 
-    
 
-    I found an online store selling these
-    cute pink headphones at an unbelievably cheap price!
+    I found an online store selling these cute
+    pink headphones at an unbelievably cheap price!
 
-    
 
-    At first, I
-    thought it was a great deal. But something seems suspicious about the website.
+    At first, I thought it
+    was a great deal. But something seems suspicious about the website.
 
-    
 
     Can
     you compare both websites and help me find what''s wrong before I make a purchase?"'
@@ -18870,6 +18863,10 @@ MonoBehaviour:
   bellaFailedPanel: {fileID: 1972663903}
   seeMessageButton: {fileID: 1635025240}
   checkVoucherButton: {fileID: 1699993354}
+  submitButton: {fileID: 725114194}
+  restartButton: {fileID: 1980178220}
+  backToGameButton: {fileID: 344886164}
+  tryAgainButton: {fileID: 221286005}
   slotPairs:
   - safeSlot: {fileID: 1698979583}
     scamSlot: {fileID: 853816970}
@@ -18908,12 +18905,8 @@ MonoBehaviour:
   foundText: {fileID: 1125010825}
   mistakesText: {fileID: 796023586}
   websiteInstruction: {fileID: 1322442555}
-  submitButton: {fileID: 725114194}
-  restartButton: {fileID: 1980178220}
-  backToGameButton: {fileID: 344886164}
-  tryAgainButton: {fileID: 221286005}
   mainGameSceneName: 
-  effectStrength: 0.3
+  effectAlpha: 0.3
   correctColor: {r: 0.2, g: 0.9, b: 0.3, a: 1}
   wrongColor: {r: 1, g: 0.2, b: 0.2, a: 1}
 --- !u!1 &1592932884
@@ -22313,20 +22306,16 @@ MonoBehaviour:
   m_text: '"Oh no... I thought the website was real because it looked just like the
     official store.
 
-    
 
-    I should have checked the details more carefully
-    before trusting such an amazing deal.
+    I should have checked the details more carefully before
+    trusting such an amazing deal.
 
-    
 
-    I almost bought something
-    from a fake shopping website!
+    I almost bought something from a fake shopping
+    website!
 
-    
 
-    Can we try again? I want to learn
-    how to shop safely online!"'
+    Can we try again? I want to learn how to shop safely online!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -22462,20 +22451,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Oh no... I couldn''t secure my account properly.
 
-    
 
-    I guess
-    I still need to learn more about protecting my personal information.
+    I guess I still
+    need to learn more about protecting my personal information.
 
-    
 
-    I
-    don''t want anyone accessing my account without permission.
+    I don''t want
+    anyone accessing my account without permission.
 
-    
 
-    Can
-    we try again?"'
+    Can we try again?"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -23684,20 +23669,17 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Wow! My account is finally protected!
 
-    
 
-    I now have a stronger
-    password, fingerprint login, and login notifications.
+    I now have a stronger password,
+    fingerprint login, and login notifications.
 
-    
 
-    I didn''t
-    realize how important these security features were before.
+    I didn''t realize how important
+    these security features were before.
 
-    
 
-    Thank
-    you for helping me protect my account. You''re awesome!"'
+    Thank you for helping me protect my
+    account. You''re awesome!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -23833,23 +23815,23 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Wow! Thank you so much!
 
-    
 
-    I almost bought those headphones
-    from a fake website because the price looked like such a great deal.
 
-    
+    I almost bought those headphones from
+    a fake website because the price looked like such a great deal.
 
-    I
-    didn''t realize how many suspicious details it had!
 
-    
 
-    Now I know to
-    always check the website address, seller information, payment methods, and other
-    details before shopping online.
+    I didn''t
+    realize how many suspicious details it had!
 
-    
+
+
+    Now I know to always check
+    the website address, seller information, payment methods, and other details before
+    shopping online.
+
+
 
     You''re a lifesaver!"'
   m_isRightToLeft: 0
@@ -24569,8 +24551,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -518592196, guid: fead5d9064c8e9b4abe22d8b69484a03, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 147988856, guid: 6ed1675143a968844b659e4c41355bd8, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
