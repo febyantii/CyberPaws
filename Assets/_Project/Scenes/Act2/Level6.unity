@@ -203,7 +203,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 9436899}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 347197236}
+        m_TargetAssemblyTypeName: Level6Controller, Assembly-CSharp
+        m_MethodName: FoundPermission
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &9436899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,6 +978,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f06190c9ec6e9a741869422779d23825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 1815216685}
+  findTheDifferencePanel: {fileID: 837595852}
+  successPanel: {fileID: 2087287459}
+  tryAgainPanel: {fileID: 474968207}
+  timerText: {fileID: 850297638}
+  roundDuration: 30
+  logoFound: {fileID: 703895615}
+  developerFound: {fileID: 1228991286}
+  permissionFound: {fileID: 830023083}
 --- !u!1 &359719218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,6 +1279,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1810882418084272102, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
   m_PrefabInstance: {fileID: 474968205}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &474968207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6242558245143146025, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+  m_PrefabInstance: {fileID: 474968205}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519473031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,7 +1365,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 519473034}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 347197236}
+        m_TargetAssemblyTypeName: Level6Controller, Assembly-CSharp
+        m_MethodName: FoundLogo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &519473034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1459,7 +1497,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 524836113}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 347197236}
+        m_TargetAssemblyTypeName: Level6Controller, Assembly-CSharp
+        m_MethodName: FoundDeveloper
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &524836113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2116,6 +2166,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1810882418084272102, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
   m_PrefabInstance: {fileID: 837595850}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &837595852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6242558245143146025, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+  m_PrefabInstance: {fileID: 837595850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &850297636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,7 +2386,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 852758780}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 347197236}
+        m_TargetAssemblyTypeName: Level6Controller, Assembly-CSharp
+        m_MethodName: RetryLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &852758780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2848,7 +2915,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1138814987}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 347197236}
+        m_TargetAssemblyTypeName: Level6Controller, Assembly-CSharp
+        m_MethodName: FoundLogo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1138814987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3118,7 +3197,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1314434207}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 347197236}
+        m_TargetAssemblyTypeName: Level6Controller, Assembly-CSharp
+        m_MethodName: FoundDeveloper
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1314434207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3351,7 +3442,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1412799532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 347197236}
+        m_TargetAssemblyTypeName: Level6Controller, Assembly-CSharp
+        m_MethodName: FoundPermission
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1412799532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4027,6 +4130,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1835903758245368772, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835903758245368772, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835903758245368772, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 347197236}
+    - target: {fileID: 1835903758245368772, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835903758245368772, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnContinueClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835903758245368772, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Level6Controller, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835903758245368772, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: AntivirusPurgeController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2476843220921428614, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
       propertyPath: m_text
       value: Can you help me find the 3 differences and identify the fake app?
@@ -4133,6 +4264,11 @@ PrefabInstance:
 --- !u!224 &1815216684 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1810882418084272102, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+  m_PrefabInstance: {fileID: 1815216683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1815216685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6242558245143146025, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
   m_PrefabInstance: {fileID: 1815216683}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2023999522
@@ -4389,6 +4525,11 @@ PrefabInstance:
 --- !u!224 &2087287458 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1810882418084272102, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
+  m_PrefabInstance: {fileID: 2087287457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2087287459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6242558245143146025, guid: 0338b07b8e299ec42853170871e2d0d9, type: 3}
   m_PrefabInstance: {fileID: 2087287457}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2116320371
