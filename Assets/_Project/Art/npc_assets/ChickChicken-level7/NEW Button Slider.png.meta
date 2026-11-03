@@ -1,0 +1,1632 @@
+fileFormatVersion: 2
+guid: 35e00c21494e0664ca78a53e020c9e30
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NEW Button Slider_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2682
+        width: 272
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6882b8d0aee3742ab4fb1d38c066b4
+      internalID: 1407043368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 2682
+        width: 186
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbc65ba3d4106049b9aeffddff1bb46
+      internalID: 173495218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_2
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 2685
+        width: 235
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c45878803d50074c9ee50d3e3073a26
+      internalID: 1333375187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_3
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 2670
+        width: 322
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b716249612031743a80dd5c47a02eec
+      internalID: 829953911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_4
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2691
+        width: 211
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a596f7202855afb46a4226b6f7741dc1
+      internalID: 1471477889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_5
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 2689
+        width: 255
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc08058f86ee4241b91205edba644aa
+      internalID: 1723741883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2492
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f9bceb22422e64380cf83acf802bd6
+      internalID: -1485613992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2492
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1759356ccf22f3b42a3f68c2372c98ce
+      internalID: -788458800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_8
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2492
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347f2250be5debc49b2be190d59df74f
+      internalID: -1474841284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_9
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 2417
+        width: 319
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14a342b0527b9149b95c478f7fe7a3a
+      internalID: 618761549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_10
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2396
+        width: 217
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43a71a0786976b4482bc88636648b71
+      internalID: -1896403140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_11
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 2398
+        width: 229
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2cfdaeb73bdf1478e01e821e838cd9
+      internalID: 1372762253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_12
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2316
+        width: 62
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d796a2aed34e904bb976939c12ab677
+      internalID: 1533796469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2314
+        width: 87
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7024437cc93ad7640b931dcc2e0242f6
+      internalID: 713841101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2316
+        width: 82
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cad32e8489ec74ab350e503d3c6351
+      internalID: -1749985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2316
+        width: 70
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffefa069b1e88c40aa2c88816f27952
+      internalID: 727753124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_16
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 2316
+        width: 71
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ae239fa30b64d459bc05627c91bcd7
+      internalID: 203764194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_17
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 2316
+        width: 61
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94766614226d2d44f86fd12bbecaa5b7
+      internalID: -337980865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_18
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2314
+        width: 85
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6440440dc52559f4aa67701f8d827fd8
+      internalID: -1642525224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_19
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2316
+        width: 69
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425996a91411d9e468aaf6253a924c31
+      internalID: -1130278520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_20
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2065
+        width: 344
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59c8066e17bff645a514e1e0440fd58
+      internalID: -185868379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_21
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 2058
+        width: 338
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00932394932c962409efafceb290b669
+      internalID: 272551386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2257
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53127ba83275aa64b91239c94833fe68
+      internalID: 898628281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2246
+        width: 101
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff91161603c2735488309cf77eb0b314
+      internalID: -1894541372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_24
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2246
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374335447ee71674690cdb917517937c
+      internalID: -329390215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_25
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2246
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be3bafba9efe874c9dd50d15a08f296
+      internalID: -2055048455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_26
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2246
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50bf51765f9dc34f92130d667aad1df
+      internalID: -600479591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_27
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 2246
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e860c7fb286513043b5b1fb1b7430bb3
+      internalID: 742784080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2246
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f691070f7f62f489f1cba8fefd7a80
+      internalID: 861080261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_29
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2246
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960813d0c0a120343beb4c215bd79ea1
+      internalID: 432770059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_30
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2244
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8334c7ccdeb23ec498e7616895bdfc6d
+      internalID: 1345980417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_31
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2246
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24844a2df4979f14c98dd75248233bec
+      internalID: -279094867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_32
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2246
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b51d7d0a39aad4d96d5161cffa339f
+      internalID: -80083965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_33
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2257
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6904b1954f98bdd4f9477eb24d134470
+      internalID: 1783617677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_34
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2016
+        width: 349
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395d7f1a9e187ea4aac5cfe3bcb605b6
+      internalID: -1192230665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2016
+        width: 329
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7511fccee7e05244b4c0d052e81002b
+      internalID: -1768433318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_36
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1874
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e780b0643f45c70419c8c3e111194e3f
+      internalID: 405779857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1666
+        width: 1697
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe3ada7f1c96f042a9687a4ec826b86
+      internalID: 622648119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_38
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 135
+        width: 107
+        height: 1706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb25f16db67610746a9895ee2d814210
+      internalID: 325263185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_39
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1485
+        width: 1706
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1772a0070a890cc44a8197a71a6f28db
+      internalID: 1112047896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_40
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1258
+        width: 243
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075000ab221420a43a6d3473a2aebbdc
+      internalID: -1363327841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_41
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1308
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5456b4e2d9ca7747b93f769a50e3d23
+      internalID: 1404115618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_42
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1308
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b8086435d88364c838227aaaa69039
+      internalID: 566539101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_43
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1307
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3988566b52468d442bcb489f8ae47c68
+      internalID: -1409259632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_44
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1308
+        width: 93
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f49f0d8dbd56a4d8f70596a5839470
+      internalID: 1607089881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_45
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1310
+        width: 87
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63efda7d5f030f443a182bbdda88b789
+      internalID: 887078225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_46
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1143
+        width: 1697
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43bcffc6f1b9964ca3d877089966039
+      internalID: -215412188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_47
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 913
+        width: 191
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c0071825cb6834ca33043e6d823184
+      internalID: 1858769258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_48
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 973
+        width: 62
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a9668f983220d4da8e737f4f583634
+      internalID: -720204672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_49
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 973
+        width: 81
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448048c4e592167478df0445a6528a4f
+      internalID: 535426699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_50
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 973
+        width: 63
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1246db2a31b244ba4d871670e9be73
+      internalID: -1179777938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_51
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 973
+        width: 89
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3773bcf6407bd1544bdd0a87f62df4a4
+      internalID: 1950434760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_52
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 971
+        width: 88
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd2595d044c9f948b3f6ef42a553dd4
+      internalID: 892174950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_53
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 974
+        width: 53
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582a69d6ae3c83d4b86a314d12ca8e81
+      internalID: -988100491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_54
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 973
+        width: 63
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47076ee23049ae947831c854cabf67b6
+      internalID: -2057968096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_55
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 798
+        width: 1697
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f71ed8c8a993db468af31d05e5422f7
+      internalID: 1601190150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_56
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 554
+        width: 230
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb62cfbb79f5d9a4fbf4aa7366ffa05b
+      internalID: -1760781715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_57
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 596
+        width: 63
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d911889ac0fa7479110407a654f497
+      internalID: -837302268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_58
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 595
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1de7fd02e8fc84b8994a9804908488
+      internalID: 790359247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_59
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 598
+        width: 54
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3a953a0994e4642b91848dcd89b45f
+      internalID: 1401357541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_60
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 595
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c721a500f6d0f7e4b8df113f2531c781
+      internalID: 1715899150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_61
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 442
+        width: 1697
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c382effd45260944abab1813082e71d7
+      internalID: -449817766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_62
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 207
+        width: 193
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233bcbdfff37e6041ab8b1ab181f83a1
+      internalID: 1142800401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_63
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 249
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c0023a361f8314992dba62fee1928e
+      internalID: 2075647891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_64
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 248
+        width: 88
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaecc5e86bd07f46899f1d3dac05051
+      internalID: 764837032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_65
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 250
+        width: 55
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adf5b05ea53ee94dbe7978038c19055
+      internalID: 2046265574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_66
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 250
+        width: 63
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6055bc929fb06e488f6476f15bae806
+      internalID: -454880564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_67
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 89
+        width: 1697
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d167ceecc71c3244fb92e35243d939ef
+      internalID: -757853998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Button Slider_68
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 66
+        width: 68
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b16af6935cf4884ba532f52da17bf20
+      internalID: -1031831047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NEW Button Slider_0: 1407043368
+      NEW Button Slider_1: 173495218
+      NEW Button Slider_10: -1896403140
+      NEW Button Slider_11: 1372762253
+      NEW Button Slider_12: 1533796469
+      NEW Button Slider_13: 713841101
+      NEW Button Slider_14: -1749985
+      NEW Button Slider_15: 727753124
+      NEW Button Slider_16: 203764194
+      NEW Button Slider_17: -337980865
+      NEW Button Slider_18: -1642525224
+      NEW Button Slider_19: -1130278520
+      NEW Button Slider_2: 1333375187
+      NEW Button Slider_20: -185868379
+      NEW Button Slider_21: 272551386
+      NEW Button Slider_22: 898628281
+      NEW Button Slider_23: -1894541372
+      NEW Button Slider_24: -329390215
+      NEW Button Slider_25: -2055048455
+      NEW Button Slider_26: -600479591
+      NEW Button Slider_27: 742784080
+      NEW Button Slider_28: 861080261
+      NEW Button Slider_29: 432770059
+      NEW Button Slider_3: 829953911
+      NEW Button Slider_30: 1345980417
+      NEW Button Slider_31: -279094867
+      NEW Button Slider_32: -80083965
+      NEW Button Slider_33: 1783617677
+      NEW Button Slider_34: -1192230665
+      NEW Button Slider_35: -1768433318
+      NEW Button Slider_36: 405779857
+      NEW Button Slider_37: 622648119
+      NEW Button Slider_38: 325263185
+      NEW Button Slider_39: 1112047896
+      NEW Button Slider_4: 1471477889
+      NEW Button Slider_40: -1363327841
+      NEW Button Slider_41: 1404115618
+      NEW Button Slider_42: 566539101
+      NEW Button Slider_43: -1409259632
+      NEW Button Slider_44: 1607089881
+      NEW Button Slider_45: 887078225
+      NEW Button Slider_46: -215412188
+      NEW Button Slider_47: 1858769258
+      NEW Button Slider_48: -720204672
+      NEW Button Slider_49: 535426699
+      NEW Button Slider_5: 1723741883
+      NEW Button Slider_50: -1179777938
+      NEW Button Slider_51: 1950434760
+      NEW Button Slider_52: 892174950
+      NEW Button Slider_53: -988100491
+      NEW Button Slider_54: -2057968096
+      NEW Button Slider_55: 1601190150
+      NEW Button Slider_56: -1760781715
+      NEW Button Slider_57: -837302268
+      NEW Button Slider_58: 790359247
+      NEW Button Slider_59: 1401357541
+      NEW Button Slider_6: -1485613992
+      NEW Button Slider_60: 1715899150
+      NEW Button Slider_61: -449817766
+      NEW Button Slider_62: 1142800401
+      NEW Button Slider_63: 2075647891
+      NEW Button Slider_64: 764837032
+      NEW Button Slider_65: 2046265574
+      NEW Button Slider_66: -454880564
+      NEW Button Slider_67: -757853998
+      NEW Button Slider_68: -1031831047
+      NEW Button Slider_7: -788458800
+      NEW Button Slider_8: -1474841284
+      NEW Button Slider_9: 618761549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
