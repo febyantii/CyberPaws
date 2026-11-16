@@ -1,8 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Level9Manager : MonoBehaviour
 {
@@ -18,7 +18,6 @@ public class Level9Manager : MonoBehaviour
     {
         public Button legitButton;
         public Button scamButton;
-
         public PlayerAnswer correctAnswer;
     }
 
@@ -45,16 +44,24 @@ public class Level9Manager : MonoBehaviour
     [SerializeField] private Color selectedScamColor =
         new Color(1f, 0.60f, 0.60f, 1f);
 
-    // Store the player's answers
+    [Header("TIMER")]
+    [SerializeField] private TMP_Text timerText;
+    [SerializeField] private float timeLimit = 60f;
+
+    // Player answers
     private PlayerAnswer[] playerAnswers;
 
-    // Store the button images
+    // Button images
     private Graphic[] legitGraphics;
     private Graphic[] scamGraphics;
 
-    // Store original button colors
+    // Original button colors
     private Color[] legitOriginalColors;
     private Color[] scamOriginalColors;
+
+    // Timer variables
+    private float timeRemaining;
+    private Coroutine timerCoroutine;
 
 
     private void Awake()
@@ -67,7 +74,6 @@ public class Level9Manager : MonoBehaviour
     private void Start()
     {
         ResetAllAnswers();
-
         ShowDialoguePanel();
     }
 
@@ -93,13 +99,12 @@ public class Level9Manager : MonoBehaviour
             if (notifications[i] == null)
                 continue;
 
-            // Get LEGIT button image
-            legitGraphics[i] = PrepareButton(notifications[i].legitButton);
+            legitGraphics[i] =
+                PrepareButton(notifications[i].legitButton);
 
-            // Get SCAM button image
-            scamGraphics[i] = PrepareButton(notifications[i].scamButton);
+            scamGraphics[i] =
+                PrepareButton(notifications[i].scamButton);
 
-            // Save original colors
             if (legitGraphics[i] != null)
                 legitOriginalColors[i] = legitGraphics[i].color;
 
@@ -114,7 +119,6 @@ public class Level9Manager : MonoBehaviour
         if (button == null)
             return null;
 
-        // Script controls the selection color
         button.transition = Selectable.Transition.None;
 
         Graphic graphic = button.targetGraphic;
@@ -125,7 +129,8 @@ public class Level9Manager : MonoBehaviour
         if (graphic == null)
         {
             Debug.LogWarning(
-                "Button " + button.name + " does not have a Target Graphic."
+                "Button " + button.name +
+                " does not have a Target Graphic."
             );
         }
 
@@ -141,13 +146,20 @@ public class Level9Manager : MonoBehaviour
     {
         if (continueButton != null)
         {
-            continueButton.onClick.AddListener(ShowNotificationPanel);
+            continueButton.onClick.AddListener(
+                ShowNotificationPanel
+            );
         }
 
         if (tryAgainButton != null)
         {
-            tryAgainButton.onClick.AddListener(RestartNotifications);
+            tryAgainButton.onClick.AddListener(
+                RestartNotifications
+            );
         }
+
+        if (notifications == null)
+            return;
 
         for (int i = 0; i < notifications.Length; i++)
         {
@@ -180,26 +192,39 @@ public class Level9Manager : MonoBehaviour
     private void ShowDialoguePanel()
     {
         SetActivePanel(dialoguePanel);
+        StopTimer();
     }
 
 
     private void ShowNotificationPanel()
     {
         SetActivePanel(notifPanel);
+
+        // Start a fresh 60-second timer
+        StartTimer();
     }
 
 
     private void ShowResultPanel(bool allCorrect)
     {
+        // Stop timer when result appears
+        StopTimer();
+
         if (allCorrect)
         {
             SetActivePanel(correctPanel);
-            Debug.Log("LEVEL 9 COMPLETED! All answers are correct.");
+
+            Debug.Log(
+                "LEVEL 9 COMPLETED! All answers are correct."
+            );
         }
         else
         {
             SetActivePanel(tryAgainPanel);
-            Debug.Log("Some answers are incorrect. Try again!");
+
+            Debug.Log(
+                "Some answers are incorrect or time is up."
+            );
         }
     }
 
@@ -221,12 +246,94 @@ public class Level9Manager : MonoBehaviour
 
 
     // ==========================================
+    // TIMER SYSTEM
+    // ==========================================
+
+    private void StartTimer()
+    {
+        // Stop any previous timer
+        StopTimer();
+
+        // Reset timer to 60 seconds
+        timeRemaining = timeLimit;
+
+        UpdateTimerDisplay();
+
+        // Start countdown
+        timerCoroutine = StartCoroutine(CountdownTimer());
+
+        Debug.Log("Timer started: " + timeLimit + " seconds.");
+    }
+
+
+    private IEnumerator CountdownTimer()
+    {
+        while (timeRemaining > 0f)
+        {
+            timeRemaining -= Time.deltaTime;
+
+            if (timeRemaining < 0f)
+                timeRemaining = 0f;
+
+            UpdateTimerDisplay();
+
+            if (timeRemaining <= 0f)
+                break;
+
+            yield return null;
+        }
+
+        timerCoroutine = null;
+
+        // Time is up only if notification page is still active
+        if (notifPanel != null && notifPanel.activeInHierarchy)
+        {
+            Debug.Log("TIME'S UP!");
+
+            ShowResultPanel(false);
+        }
+    }
+
+
+    private void UpdateTimerDisplay()
+    {
+        if (timerText == null)
+            return;
+
+        int totalSeconds = Mathf.CeilToInt(timeRemaining);
+
+        int minutes = totalSeconds / 60;
+        int seconds = totalSeconds % 60;
+
+        timerText.text = string.Format(
+            "{0:00}:{1:00}",
+            minutes,
+            seconds
+        );
+    }
+
+
+    private void StopTimer()
+    {
+        if (timerCoroutine != null)
+        {
+            StopCoroutine(timerCoroutine);
+            timerCoroutine = null;
+        }
+    }
+
+
+    // ==========================================
     // PLAYER SELECTS LEGIT / SCAM
     // ==========================================
 
-    private void SelectAnswer(int index, PlayerAnswer selectedAnswer)
+    private void SelectAnswer(
+        int index,
+        PlayerAnswer selectedAnswer
+    )
     {
-        if (notifPanel == null || !notifPanel.activeInHierarchy)
+        if (notifPanel == null ||
+            !notifPanel.activeInHierarchy)
             return;
 
         if (index < 0 || index >= playerAnswers.Length)
@@ -239,11 +346,10 @@ public class Level9Manager : MonoBehaviour
         }
         else
         {
-            // Select or switch to the other answer
+            // Select or switch answer
             playerAnswers[index] = selectedAnswer;
         }
 
-        // Update selected button colors
         UpdateButtonColors(index);
 
         Debug.Log(
@@ -251,7 +357,6 @@ public class Level9Manager : MonoBehaviour
             " selected: " + playerAnswers[index]
         );
 
-        // Check whether all notifications have been answered
         CheckAllAnswers();
     }
 
@@ -264,27 +369,22 @@ public class Level9Manager : MonoBehaviour
     {
         if (playerAnswers[index] == PlayerAnswer.Legit)
         {
-            // LEGIT selected
             if (legitGraphics[index] != null)
                 legitGraphics[index].color = selectedLegitColor;
 
-            // SCAM unselected
             if (scamGraphics[index] != null)
                 scamGraphics[index].color = scamOriginalColors[index];
         }
         else if (playerAnswers[index] == PlayerAnswer.Scam)
         {
-            // SCAM selected
             if (scamGraphics[index] != null)
                 scamGraphics[index].color = selectedScamColor;
 
-            // LEGIT unselected
             if (legitGraphics[index] != null)
                 legitGraphics[index].color = legitOriginalColors[index];
         }
         else
         {
-            // Both buttons return to original colors
             if (legitGraphics[index] != null)
                 legitGraphics[index].color = legitOriginalColors[index];
 
@@ -300,7 +400,7 @@ public class Level9Manager : MonoBehaviour
 
     private void CheckAllAnswers()
     {
-        // Wait until all notifications have been answered
+        // Wait until all notifications are answered
         for (int i = 0; i < playerAnswers.Length; i++)
         {
             if (playerAnswers[i] == PlayerAnswer.None)
@@ -309,7 +409,7 @@ public class Level9Manager : MonoBehaviour
 
         bool allCorrect = true;
 
-        // Compare the player's answers with correct answers
+        // Compare player answers with correct answers
         for (int i = 0; i < playerAnswers.Length; i++)
         {
             if (notifications[i] == null ||
@@ -321,7 +421,6 @@ public class Level9Manager : MonoBehaviour
             }
         }
 
-        // Automatically show the result
         ShowResultPanel(allCorrect);
     }
 
@@ -343,12 +442,15 @@ public class Level9Manager : MonoBehaviour
 
     private void RestartNotifications()
     {
-        // Clear all previous answers
+        // Reset all selected answers
         ResetAllAnswers();
 
         // Return to notification page
+        // ShowNotificationPanel automatically restarts timer
         ShowNotificationPanel();
 
-        Debug.Log("Notifications have been reset.");
+        Debug.Log(
+            "Notifications reset. Timer restarted."
+        );
     }
 }
