@@ -10896,20 +10896,19 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Yay! Thank you so much!
 
-    
+
 
     I almost fell for those fake vouchers
     because the discounts looked so tempting.
 
-    
 
-    Now I know that I should
-    always check the details before trusting an online promotion.
 
-    
+    Now I know that I should always
+    check the details before trusting an online promotion.
 
-    You''re
-    a lifesaver!"'
+
+
+    You''re a lifesaver!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -12088,15 +12087,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Oh no... I thought those vouchers were real.
 
-    
 
-    I should have
-    checked the details more carefully before trusting those amazing offers.
 
-    
+    I should have checked
+    the details more carefully before trusting those amazing offers.
 
-    I
-    guess I still have a lot to learn about online shopping safety. Can we try again?"'
+
+
+    I guess
+    I still have a lot to learn about online shopping safety. Can we try again?"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -18000,17 +17999,17 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Hey! Can you help me?
 
-    
 
-    I found an online store selling these
-    cute pink headphones at an unbelievably cheap price!
 
-    
+    I found an online store selling these cute
+    pink headphones at an unbelievably cheap price!
 
-    At first, I
-    thought it was a great deal. But something seems suspicious about the website.
 
-    
+
+    At first, I thought it
+    was a great deal. But something seems suspicious about the website.
+
+
 
     Can
     you compare both websites and help me find what''s wrong before I make a purchase?"'
@@ -18870,6 +18869,10 @@ MonoBehaviour:
   bellaFailedPanel: {fileID: 1972663903}
   seeMessageButton: {fileID: 1635025240}
   checkVoucherButton: {fileID: 1699993354}
+  submitButton: {fileID: 725114194}
+  restartButton: {fileID: 1980178220}
+  backToGameButton: {fileID: 344886164}
+  tryAgainButton: {fileID: 221286005}
   slotPairs:
   - safeSlot: {fileID: 1698979583}
     scamSlot: {fileID: 853816970}
@@ -18908,12 +18911,8 @@ MonoBehaviour:
   foundText: {fileID: 1125010825}
   mistakesText: {fileID: 796023586}
   websiteInstruction: {fileID: 1322442555}
-  submitButton: {fileID: 725114194}
-  restartButton: {fileID: 1980178220}
-  backToGameButton: {fileID: 344886164}
-  tryAgainButton: {fileID: 221286005}
   mainGameSceneName: 
-  effectStrength: 0.3
+  effectAlpha: 0.3
   correctColor: {r: 0.2, g: 0.9, b: 0.3, a: 1}
   wrongColor: {r: 1, g: 0.2, b: 0.2, a: 1}
 --- !u!1 &1592932884
@@ -22313,20 +22312,16 @@ MonoBehaviour:
   m_text: '"Oh no... I thought the website was real because it looked just like the
     official store.
 
-    
 
-    I should have checked the details more carefully
-    before trusting such an amazing deal.
+    I should have checked the details more carefully before
+    trusting such an amazing deal.
 
-    
 
-    I almost bought something
-    from a fake shopping website!
+    I almost bought something from a fake shopping
+    website!
 
-    
 
-    Can we try again? I want to learn
-    how to shop safely online!"'
+    Can we try again? I want to learn how to shop safely online!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -22462,20 +22457,19 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Oh no... I couldn''t secure my account properly.
 
-    
 
-    I guess
-    I still need to learn more about protecting my personal information.
 
-    
+    I guess I still
+    need to learn more about protecting my personal information.
 
-    I
-    don''t want anyone accessing my account without permission.
 
-    
 
-    Can
-    we try again?"'
+    I don''t
+    want anyone accessing my account without permission.
+
+
+
+    Can we try again?"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -23684,20 +23678,20 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Wow! My account is finally protected!
 
-    
 
-    I now have a stronger
-    password, fingerprint login, and login notifications.
 
-    
+    I now have a stronger password,
+    fingerprint login, and login notifications.
 
-    I didn''t
-    realize how important these security features were before.
 
-    
 
-    Thank
-    you for helping me protect my account. You''re awesome!"'
+    I didn''t realize how important
+    these security features were before.
+
+
+
+    Thank you for helping me protect
+    my account. You''re awesome!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
   m_sharedMaterial: {fileID: -1812728695440079429, guid: 3b8b334c22b2dcb43827646b9195ab10, type: 2}
@@ -23833,23 +23827,19 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Wow! Thank you so much!
 
-    
 
-    I almost bought those headphones
-    from a fake website because the price looked like such a great deal.
+    I almost bought those headphones from a
+    fake website because the price looked like such a great deal.
 
-    
 
-    I
-    didn''t realize how many suspicious details it had!
+    I didn''t
+    realize how many suspicious details it had!
 
-    
 
-    Now I know to
-    always check the website address, seller information, payment methods, and other
-    details before shopping online.
+    Now I know to always check
+    the website address, seller information, payment methods, and other details before
+    shopping online.
 
-    
 
     You''re a lifesaver!"'
   m_isRightToLeft: 0
